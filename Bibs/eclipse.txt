@@ -1,0 +1,10 @@
+@article{pasachoff2006april,
+  title={The April 8, 2005, eclipse white-light corona},
+  author={Pasachoff, Jay M and Kimmel, Shelby B and Druckm{\"u}ller, Miloslav and Ru{\v{s}}in, Vojtech and Saniga, Metod},
+  journal={Solar Physics},
+  volume={238},
+  number={2},
+  pages={261--270},
+  year={2006},
+  publisher={Springer}
+}

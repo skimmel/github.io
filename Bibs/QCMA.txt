@@ -1,0 +1,6 @@
+@article{fefferman2015quantum,
+  title={Quantum vs Classical Proofs and Subset Verification},
+  author={Fefferman, Bill and Kimmel, Shelby},
+  journal={arXiv preprint arXiv:1510.06750},
+  year={2015}
+}

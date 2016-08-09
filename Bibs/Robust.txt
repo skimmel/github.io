@@ -1,0 +1,10 @@
+@article{kimmel2015robust,
+  title={Robust calibration of a universal single-qubit gate set via robust phase estimation},
+  author={Kimmel, Shelby and Low, Guang Hao and Yoder, Theodore J},
+  journal={Physical Review A},
+  volume={92},
+  number={6},
+  pages={062315},
+  year={2015},
+  publisher={American Physical Society}
+}

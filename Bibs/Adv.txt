@@ -1,0 +1,8 @@
+@article{kimmel2011quantum,
+  title={Quantum Adversary (Upper) Bound},
+  author={Kimmel, Shelby},
+  journal={Chicago Journal of Theoretical Computer Science},
+  volume={2013},
+  number={4},
+  year={2011}
+}

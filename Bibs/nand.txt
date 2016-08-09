@@ -1,0 +1,6 @@
+@article{jeffery2015nand,
+  title={NAND-Trees, Average Choice Complexity, and Effective Resistance},
+  author={Jeffery, Stacey and Kimmel, Shelby},
+  journal={arXiv preprint arXiv:1511.02235},
+  year={2015}
+}

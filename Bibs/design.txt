@@ -1,0 +1,6 @@
+@article{kimmel2015quantum,
+  title={Quantum Compressed Sensing Using 2-Designs},
+  author={Kimmel, Shelby and Liu, Yi-Kai},
+  journal={arXiv preprint arXiv:1510.08887},
+  year={2015}
+}

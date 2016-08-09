@@ -1,0 +1,10 @@
+@article{johnson2015demonstration,
+  title={Demonstration of robust quantum gate tomography via randomized benchmarking},
+  author={Johnson, Blake R and da Silva, Marcus P and Ryan, Colm A and Kimmel, Shelby and Chow, Jerry M and Ohki, Thomas A},
+  journal={New Journal of Physics},
+  volume={17},
+  number={11},
+  pages={113019},
+  year={2015},
+  publisher={IOP Publishing}
+}

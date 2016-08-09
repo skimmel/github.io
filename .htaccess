@@ -1,0 +1,9 @@
+UseUMDKrbAuth on
+
+UseUMDHesiodAuth on
+
+AuthType Basic
+
+AuthName TERPCONNECT.UMD.EDU
+
+require user username

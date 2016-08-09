@@ -1,0 +1,8 @@
+@inproceedings{zhan2012super,
+  title={Super-polynomial quantum speed-ups for boolean evaluation trees with hidden structure},
+  author={Zhan, Bohua and Kimmel, Shelby and Hassidim, Avinatan},
+  booktitle={Proceedings of the 3rd Innovations in Theoretical Computer Science conference},
+  pages={249--265},
+  year={2012},
+  organization={ACM}
+}

@@ -1,0 +1,9 @@
+@inproceedings{kimmel2015oracles,
+  title={Oracles with Costs},
+  author={Kimmel, Shelby and Lin, Cedric Yen-Yu and Lin, Han-Hsuan},
+  booktitle={10th Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC 2015)},
+  volume={44},
+  pages={1--26},
+  year={2015},
+  organization={Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik}
+}

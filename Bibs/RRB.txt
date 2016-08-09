@@ -1,0 +1,10 @@
+@article{kimmel2014robust,
+  title={Robust extraction of tomographic information via randomized benchmarking},
+  author={Kimmel, Shelby and da Silva, Marcus P and Ryan, Colm A and Johnson, Blake R and Ohki, Thomas},
+  journal={Physical Review X},
+  volume={4},
+  number={1},
+  pages={011050},
+  year={2014},
+  publisher={American Physical Society}
+}

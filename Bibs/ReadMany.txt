@@ -1,0 +1,8 @@
+@inproceedings{childs2012quantum,
+  title={The quantum query complexity of read-many formulas},
+  author={Childs, Andrew M and Kimmel, Shelby and Kothari, Robin},
+  booktitle={European Symposium on Algorithms},
+  pages={337--348},
+  year={2012},
+  organization={Springer Berlin Heidelberg}
+}

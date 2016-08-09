@@ -1,0 +1,375 @@
+ /*Overall Stuff */
+
+* {
+	background-color: rgb(242,242,242);
+	color:rgb(60,60,60);
+	font-family: Lucida Sans Unicode,arial,sans-serif;
+}
+
+.dark-blue-font {
+	color:rgb(51,101,153);
+}
+
+.light-blue-font {
+	color:rgb(59,153,204);
+}
+
+.coral-font {
+	color:rgb(230,100,100);
+}
+
+.green-font {
+	color:rgb(64,153,153);
+}
+
+
+
+
+
+/* Header Stuff */
+
+header h1 {
+	color:rgb(51,101,153);
+	/* font-variant: small-caps; */
+	font-size: 200%;
+	/*background-color: rgb(250,0,0);*/
+	/* width:30%; */
+	height:5vh;
+	display:inline-block;
+	/* border:solid; */
+	margin-top:2vh;
+	/* margin-bottom:1vh; */
+	margin-left:50px;
+	float:left;
+	clear:both;
+	/* padding-bottom: 10px; */
+
+}
+
+header {
+	overflow:hidden;
+	margin-bottom:50px; 
+}
+
+nav {
+	margin-top:2vh;
+	margin-bottom:1vh;
+	display:inline-block;
+	float:left;
+	/* border:solid; */
+	height:5vh;
+	/* clear:right; */
+	/* padding-bottom:10px; */
+}
+
+#current {
+	border-bottom: solid 1px;
+	border-color:rgb(230,100,100); 
+}
+
+#current:hover{
+	border-bottom: solid;
+	border-color:rgb(230,100,100); 
+}
+
+nav a:hover {
+	/* border:solid; */
+	/* background-color:gray; */
+	border-bottom: solid;
+	border-color:rgb(230,100,100); 
+
+}
+
+nav a:focus{ 
+	/*border:solid;*/
+	/* border-bottom: solid; */
+	border-color:rgb(230,100,100); 
+}
+
+nav ul {
+	list-style:none; 
+	list-style-position: horizontal;
+}
+
+nav li {
+	display:inline;
+	padding:0px 10px 0px 10px;
+	/* border:solid; */
+}
+
+nav a{
+	text-decoration:none;
+	font-size:100%;
+}
+
+nav a:visited{
+	color:rgb(59,153,204);
+}
+
+nav li:focus {
+	border:solid;
+}
+
+nav {
+	margin-bottom:20px;
+}
+
+
+
+
+
+
+
+/* Main Stuff */
+main h1 {
+	/* border:solid; */
+	clear:both;
+	padding:10px;
+}
+
+p {
+	font-size: 100%
+}
+
+img {
+	/* float:left; */
+	/* margin-right:10vw; */
+	/* border:solid; */
+	/*padding-top:20px;*/
+}
+
+
+.hidden {
+	/* For screen readers!*/
+	display: none;
+}
+
+
+
+
+
+
+
+main a {
+	color:rgb(64,153,153);
+}
+
+main a:visited{
+	color:rgb(64,153,153);
+
+}
+
+main a:focus{
+
+}
+main a:hover {
+	color:rgb(230,100,100); 
+}
+
+
+
+
+/* Two Columns */
+
+table {
+	margin-top:0px;
+	padding-top:0px;
+	background-color:rgb(242,242,242);
+}
+tr{
+	background-color:rgb(242,242,242);
+}
+td {
+	background-color:rgb(242,242,242);
+}
+td a {
+	background-color:rgb(242,242,242);
+}
+
+#AboutMe {
+	width:70%;
+	padding-top:0px;
+	padding-left:50px;
+	padding-right:100px;
+}
+
+#MePic {
+	padding-top:0px;
+	padding-top:20px;
+	vertical-align:top;
+}
+
+
+#containerA2 {
+	float:left;
+	width:100%;
+    /* border:solid; */
+    overflow:hidden;
+    position:relative;
+}
+
+#containerA1 {
+	float:left;
+	width:100%;
+    /* border:solid; */
+    position:relative;
+    right:40%;
+}
+
+#columnA1 {
+    float:left;
+    width:50%;
+    position:relative;
+    left:50%;
+    overflow:hidden;
+
+}
+#columnA2 {
+    float:left;
+    width:40%;
+    position:relative;
+    left:61%;
+    overflow:hidden;
+}
+
+h2 {
+	clear:both;
+	margin:0;
+	font-size:125%;
+	color:rgb(51,101,153);
+	/* border:solid; */
+}
+
+.link-box {
+	display:inline-block;
+	float:left;
+	margin-left:3vw;
+	margin-right: 3vw;
+	margin-top:5vw;
+	/*border:solid;*/
+	padding:10px;
+}
+
+#Publications {
+	margin-left: 50px;
+	margin-left:3vw;
+}
+
+#contact {
+	width:250px;
+	margin-bottom: 8vw;
+	margin-left:3vw;
+}
+
+.ParagraphBlock{
+	width:80%;
+	margin-left:50px;
+}
+
+main ul{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+    /* list-style-position: outside; */
+}
+
+main {
+	margin-bottom: 30px;
+}
+
+footer {
+	position:fixed;
+	clear:both;
+	bottom:0;
+	width:100%;
+	height:20px;
+	vertical-align: bottom;
+	border-top: solid 1px;
+	/* background-color: rgb(120,213,254); */
+}
+
+
+/* For research page */
+.ResearchTable table {
+	margin-left:50px;
+	margin-bottom:70px;
+	float:left;
+	border-collapse:collapse;
+	border:solid 1px;
+	 width:80%; 
+	/* margin-left:100px; */
+	background-color:rgb(255,255,255);
+}
+.ResearchTable td {
+	border-bottom:solid 1px;
+	vertical-align: top;
+	background-color:rgb(255,255,255);
+	padding:10px;
+}
+.ResearchTable th {
+	border-bottom:solid 1px;
+	vertical-align: top;
+	background-color:rgb(255,255,255);
+	padding:10px;
+}
+
+.ResearchTable tr {
+	border-bottom:solid 1px;
+	vertical-align: top;
+	background-color:rgb(255,255,255);
+	padding:10px;
+}
+.ResearchTable td{
+	background-color:rgb(255,255,255);
+}
+
+.ResearchTable td a {
+	background-color:rgb(255,255,255);
+}
+.description {
+	/*margin-left: 100px;*/
+	font-size: 14;
+	margin-bottom: 20px;
+}
+
+.paperCol {
+	margin-right:10px;
+}
+
+.refCol {
+	width:12%;
+}
+
+.ParagraphBlock p {
+	margin-top: 3px;
+}
+
+.ParagraphBlock ul {
+	padding-bottom: 20px;
+}
+
+/* For Talks */
+
+
+li li {
+	list-style-type: disc;
+	margin-left: 50px;
+}
+
+.video {
+	font-weight: bold;
+}
+.talkList{
+	margin-top:10px;
+}
+
+/* For advising */
+.advisingList{
+	list-style:circle;
+	margin-left: 20px;
+}
+
+
+
+/*Nice simple header at: https://codepen.io/sahilpopli/pen/GcFCb
+

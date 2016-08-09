@@ -1,0 +1,10 @@
+@article{bandyopadhyay2009entanglement,
+  title={Entanglement cost of nonlocal measurements},
+  author={Bandyopadhyay, Somshubhro and Brassard, Gilles and Kimmel, Shelby and Wootters, William K},
+  journal={Physical Review A},
+  volume={80},
+  number={1},
+  pages={012313},
+  year={2009},
+  publisher={APS}
+}

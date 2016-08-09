@@ -1,0 +1,6 @@
+@article{farhi2016quantum,
+  title={A Quantum Version of Sch$\backslash$" oning's Algorithm Applied to Quantum 2-SAT},
+  author={Farhi, Edward and Kimmel, Shelby and Temme, Kristan},
+  journal={arXiv preprint arXiv:1603.06985},
+  year={2016}
+}
