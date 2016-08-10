@@ -100,6 +100,7 @@ nav li {
 nav a{
 	text-decoration:none;
 	font-size:100%;
+	color:rgb(59,153,204);
 }
 
 nav a:visited{
@@ -346,6 +347,11 @@ footer {
 
 .ParagraphBlock ul {
 	padding-bottom: 20px;
+}
+
+.title {
+	font-style: italic;
+	background-color: rgb(255,255,255);
 }
 
 /* For Talks */
