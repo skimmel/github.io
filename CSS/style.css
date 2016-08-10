@@ -52,6 +52,7 @@ header {
 }
 
 nav {
+	font-size: 100%;
 	margin-top:2vh;
 	margin-bottom:1vh;
 	display:inline-block;
@@ -331,7 +332,7 @@ footer {
 }
 .description {
 	/*margin-left: 100px;*/
-	font-size: 14;
+	font-size: 100%;
 	margin-bottom: 20px;
 }
 
