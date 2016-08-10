@@ -99,7 +99,7 @@ nav li {
 
 nav a{
 	text-decoration:none;
-	/* font-size:100%; */
+	 font-size:100%; 
 	color:rgb(59,153,204);
 }
 
@@ -373,6 +373,10 @@ li li {
 }
 
 
+Responsive?
+@media only screen and (max-width: 320px) {
 
-/*Nice simple header at: https://codepen.io/sahilpopli/pen/GcFCb
+   nav a { font-size: 150%; }
+
+}
 
