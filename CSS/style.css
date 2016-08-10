@@ -352,6 +352,11 @@ footer {
 	padding-bottom: 20px;
 }
 
+.title {
+	font-style: italic;
+	background-color: rgb(255,255,255);
+}
+
 /* For Talks */
 
 
