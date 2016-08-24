@@ -6,6 +6,7 @@ html {
 @media screen and (max-width: 480px), (max-device-width:480px) {
 html {
 	font-size: 14px;
+	-webkit-text-size-adjust:none; 
 }
 }
 
