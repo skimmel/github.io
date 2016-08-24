@@ -3,19 +3,24 @@
 <html lang="en">
 
 <head>
-	<meta charset = "UTF-8">
+	<meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title> Shelby Kimmel </title>
 	<!--<link rel = "icon" type="image/png" href = "Elkhorn.jpg"/> shouod be png-->
 	<link rel="stylesheet" href="CSS/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 <body>
 
-<div class="AllContainer">
+<div class="allContainer">
 
 <header>
 	<h1 class="dark-blue-font"> Shelby Kimmel </h1>
-	<nav>
+	<div class = "button">
+		<div class = "burger"></div>
+	</div>
+	<div class = "navClass">
+	<nav class="nav clear">
 		<ul class="blue-font">
 			<li> <a href = "index.html" id="current">About Me</a></li>
 			<li> <a href = "research.html">Research</a></li>
@@ -23,7 +28,10 @@
 			<li> <a href = "advising.html">Advising</a></li>
 		</ul>
 	</nav>
+</div>
 </header>
+
+<h2 id = "pageTitle"> About Me</h2>
 
 <main>
 
@@ -86,11 +94,27 @@
 	</div>
 
 </main>
-</div>
 
 <footer>
 	<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Shelby Kimmel, 2016.</span>
 </footer>
+
+</div>
+
+<script>
+$(".button").click(function () {
+    $(".nav").slideToggle(0);
+});
+$(window).resize(function () {
+    if ($(window).width() > 580) {
+        $(".nav").show();
+        $(".button").hide();
+    } else {
+        $(".nav").hide();
+        $(".button").show();
+    }
+});
+</script>
 
 </body>
 </html>
