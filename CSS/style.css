@@ -219,7 +219,25 @@ main a:hover {
 
 
 /* Two Columns */
+.mainContent {
+	display:block;
+}
 
+#AboutMe {
+	display:inline-block;
+	width: 57%;
+	margin-left: 3rem;
+	vertical-align: top;
+}
+
+#MePic {
+	display: inline-block;
+	margin-left:100px;
+	vertical-align: top;
+	margin-top: 1.5rem;
+}
+
+/*
 table {
 	margin-top:0px;
 	padding-top:0px;
@@ -247,6 +265,8 @@ td a {
 	padding-top:20px;
 	vertical-align:top;
 }
+
+*/
 
 h2 {
 	clear:both;
