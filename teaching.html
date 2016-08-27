@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title> Shelby Kimmel </title>
+	<!--<link rel = "icon" type="image/png" href = "Elkhorn.jpg"/> shouod be png-->
+	<link rel="stylesheet" href="CSS/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div class="allContainer">
+
+<header>
+	<h1 class="dark-blue-font"> Shelby Kimmel </h1>
+	<div class = "button">
+		<div class = "burger"></div>
+	</div>
+	<div class = "navClass">
+	<nav class="nav clear">
+		<ul class="blue-font">
+			<li> <a href = "index.html" >About Me</a></li>
+			<li> <a href = "research.html">Research</a></li>
+			<li> <a  id="current" href="teaching.html">Teaching</a></li>
+			<li> <a href = "talks.html">Talks</a></li>
+			<li> <a href = "advising.html">Advising</a></li>
+		</ul>
+	</nav>
+</div>
+</header>
+
+<h2 id = "pageTitle"> Teaching</h2>
+
+<main>
+
+	<div class = "ParagraphBlock">
+
+
+	<h2>University of Maryland</h2>
+	<ul class = "advisingList">
+		<li>Fall 2016: <a href="https://www.cs.umd.edu/class/fall2016/cmsc858K/">Introduction to Quantum Information Processing</a> (Co-teaching) </li>
+		<li>Fall 2016: <a href="https://myelms.umd.edu/courses/1199373/assignments/syllabus"> Object-Oriented Programming I </a> (Teaching discussion section)</li>
+	</ul>
+
+	<h2>Massachusetts Institute of Technology </h2>
+	<ul class = "advisingList">
+		<li>Spring 2014, 2012: <a href="http://ocw.mit.edu/courses/physics/8-06-quantum-physics-iii-spring-2005/">Quantum Physics III</a> (Writing tutor)</li>
+		<li>Spring 2011: <a href="http://ocw.mit.edu/courses/physics/8-02-physics-ii-electricity-and-magnetism-spring-2007/">Physics II: Electricity and Magnetism</a> (TEAL -Technology Enabled Active Learning teaching assistant)</li>
+	</ul>
+
+	<h2>Gochangbuk High School (Gochang, Jeolla-buk-do, South Korea)</h2>
+	<ul class = "advisingList">
+		<li>Fall 2008, Spring 2009: <a href="http://www.fulbright.or.kr/xe/eta">Fulbright English Teaching Assistant (ETA)</li>
+	</ul>
+
+
+</div>
+
+</main>
+
+
+</main>
+
+<footer>
+	<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Shelby Kimmel, 2016.</span>
+</footer>
+
+</div>
+
+<script>
+$(".button").click(function () {
+    $(".nav").slideToggle(0);
+});
+$(window).resize(function () {
+    if ($(window).width() > 580) {
+        $(".nav").show();
+        $(".button").hide();
+    } else {
+        $(".nav").hide();
+        $(".button").show();
+    }
+});
+</script>
+
+</body>
+</html>
+
