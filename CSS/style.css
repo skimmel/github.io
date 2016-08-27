@@ -566,10 +566,13 @@ margin-bottom:1.5rem;
 }
 
 
-#AboutMe {
-	padding-left:.5rem;
-}
 
+#AboutMe {
+	display:inline-block;
+	width: 98%;
+	margin-left: .5rem;
+	vertical-align: top;
+}
 .ParagraphBlock{
 	width:95%;
 	margin-left:.5rem;
