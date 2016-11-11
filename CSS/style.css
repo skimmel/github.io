@@ -3,9 +3,9 @@ html {
 	font-size: 16px;
 }
 
-@media screen and (max-width: 480px), (max-device-width:480px) {
+@media screen and (max-width: 580px), (max-device-width:580px) {
 html {
-	font-size: 14px;
+	font-size: 15px;
 	-webkit-text-size-adjust:none; 
 }
 }
@@ -42,7 +42,6 @@ html {
 /* Header Stuff */
 
 .button {
-	display: none; 
 	cursor:pointer;
 	height: 2rem;
 	width:2rem;
@@ -50,6 +49,7 @@ html {
 	right:1rem;
 	top:1rem;
 	background-color: rgb(242,242,242);
+	display: none; 
 }
 
 .button .burger {
@@ -407,7 +407,7 @@ li li {
 
 /*  Break Point 1 */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1014px), (max-device-width:1014px) {
 
 nav{
 	display:block;
@@ -425,6 +425,7 @@ header h1{
 }
 
 #AboutMe {
+	width:75%;
 	padding-right:3rem;}
 
 #contact {
@@ -439,11 +440,10 @@ header{
 	padding-bottom:0;
 }
 
-		
-
+	
 }
 
-@media screen and (max-width: 580px), (max-device-width:580px) {
+@media screen and (max-width: 740px), (max-device-width:740px) {
 
 /*stuff for burger*/
 
@@ -566,10 +566,13 @@ margin-bottom:1.5rem;
 }
 
 
-#AboutMe {
-	padding-left:.5rem;
-}
 
+#AboutMe {
+	display:inline-block;
+	width: 98%;
+	margin-left: .5rem;
+	vertical-align: top;
+}
 .ParagraphBlock{
 	width:95%;
 	margin-left:.5rem;
