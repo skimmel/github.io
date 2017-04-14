@@ -1,6 +1,6 @@
 @article{jeffery2015nand,
-  title={NAND-Trees, Average Choice Complexity, and Effective Resistance},
+  title={Quantum Algorithms for Graph Connectivity and Formula Evaluation},
   author={Jeffery, Stacey and Kimmel, Shelby},
-  journal={arXiv preprint arXiv:1511.02235},
+  journal={arXiv preprint arXiv:1704.00765},
   year={2015}
 }
