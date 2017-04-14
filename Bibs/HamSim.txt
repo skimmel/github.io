@@ -1,6 +1,12 @@
-@article{kimmel2016hamiltonian,
-  title={Hamiltonian Simulation with Optimal Sample Complexity},
-  author={Kimmel, Shelby and Lin, Cedric Yen-Yu and Low, Guang Hao and Ozols, Maris and Yoder, Theodore J},
-  journal={arXiv preprint arXiv:1608.00281},
-  year={2016}
+@Article{Kimmel2017,
+author={Kimmel, Shelby and Lin, Cedric Yen-Yu and Low, Guang Hao and Ozols, Maris and Yoder, Theodore J.},
+title={Hamiltonian simulation with optimal sample complexity},
+journal={npj Quantum Information},
+year={2017},
+volume={3},
+number={13},,
+issn={2056-6387},
+doi={10.1038/s41534-017-0013-7},
+url={http://dx.doi.org/10.1038/s41534-017-0013-7}
 }
+

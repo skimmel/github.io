@@ -1,0 +1,6 @@
+@article{Rudinger2017experimental,
+  title={Experimental demonstration of cheap and accurate phase estimation},
+  author={Rudinger, Kenneth and Kimmel, Shelby and Lobser, Daniel and Maunz, Peter},
+  journal={arXiv preprint arXiv:1702.01763},
+  year={2017}
+}
