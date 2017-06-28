@@ -1,6 +1,10 @@
-@article{Rudinger2017experimental,
-  title={Experimental demonstration of cheap and accurate phase estimation},
+@article{rudinger2017experimental,
+  title={Experimental Demonstration of a Cheap and Accurate Phase Estimation},
   author={Rudinger, Kenneth and Kimmel, Shelby and Lobser, Daniel and Maunz, Peter},
-  journal={arXiv preprint arXiv:1702.01763},
-  year={2017}
+  journal={Physical Review Letters},
+  volume={118},
+  number={19},
+  pages={190502},
+  year={2017},
+  publisher={American Physical Society}
 }
