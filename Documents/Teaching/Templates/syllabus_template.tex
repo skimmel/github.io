@@ -1,0 +1,171 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage[colorlinks]{hyperref}
+\usepackage{url}\urlstyle{same}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+
+\begin{document}
+
+% ~\vspace{-4em}
+% \hrule\hrule\smallskip\centerline{\Huge{\bf DRAFT}}\smallskip\hrule\hrule
+% \bigskip
+
+{\Large {CSCI xxx} \hfill Spring 2018} \\[3pt]
+{\Large {\bf Quantum Information and Computation}}
+
+\medskip
+{\bf Time and Location:} Tuesday/Thursday, 12:30 am--1:45 pm, CSI 3120
+
+\smallskip
+
+{\bf Instructor:}
+Shelby Kimmel (\href{mailto:skimmel@middlebury.edu}{skimmel@middlebury.edu}) \\
+Office hours: Tues 4:00-5:00 pm (CSS 3100E)
+
+%\smallskip
+%AVW Office Hours (manned by that week's lecturer)\\
+%Office hours: Tuesday 2:00-3:00 pm AVW 3225
+
+\smallskip
+
+{\bf Teaching assistant}
+
+Yuan Su (\href{mailto:yuansu@umd.edu}{yuansu@umd.edu}) \\
+Office hours: Tuesday 3:30-4:30 pm (AVW 3225)
+
+\smallskip 
+
+{\bf Additional Office Hours}
+
+AVW 3225 on Tuesdays from 2-3 pm, held by whoever is lecturing that day
+
+\medskip
+{\bf Texts}
+
+Primary: Paul Kaye, Raymond Laflamme, and Michele Mosca, \emph{An Introduction to Quantum Computing}, Oxford University Press (2007).
+
+Supplemental: Michael A.\ Nielsen and Isaac L.\ Chuang, \emph{Quantum Computation and Quantum Information}, Cambridge University Press (2000).
+
+Copies of both texts will be available on reserve in the Engineering and Physical Sciences Library (Math building, room 1403).
+
+\medskip
+
+{\bf Course website:} \url{TBD}
+
+\medskip
+
+{\bf Learning Goals} After completing this course, students should be able to
+\begin{enumerate}
+\item Describe the following key properties of quantum mechanics and explain why they are useful in informational and computational tasks: entanglement, measurement, no-cloning, superposition, complex phases.
+\item Apply linear algebra to describe, analyze, and solve problems related to quantum information and computation protocols.
+\end{enumerate}
+
+\medskip
+
+{\bf Rough Syllabus}
+\begin{itemize}
+\item First third of the course: Learn to describe quantum mechanical systems mathematically. Apply to a range of tasks, including cryptography, communicating quantum and classical information, copying (or not!) quantum information, and playing games.
+\item Second and last third of the course: describe and analyze quantum algorithms for search, period finding, factoring, and related problems.
+\end{itemize}
+
+\medskip
+
+
+
+{\bf Prerequisites }I assume you are familiar with linear algebra (e.g. have taken MATH 200), basic probability (e.g. topics covered in CSIC 200), and complex numbers (if you have not had a lot of experience with complex numbers, I can provide resources to learn and practice.)
+
+
+\medskip
+{\bf Growth Mindset}
+I expect all students to work to develop a growth mindset. This involves an awareness that intelligence is not fixed, but can increase through practice. Students will strive to see critical feedback (through grades or other forms of assessment) for what it is: an opportunity to understand your weaknesses and improve on them, rather than a sign of failure. Developing such a mindset will not only tend to improve your grades, but will make learning more enjoyable.
+
+\medskip
+{\bf Group Work and Attendance} Students will be assigned to a group of three
+people. You will work with your group in class to solve and discuss problems.
+Groups will be assigned randomly. Diverse groups tend to perform better than
+homogeneous groups, so please think about what diverse perspectives or
+background you might bring to your group. You will be graded according to the
+following rubric \url{http://shelbykimmel.com/Documents/Teaching/GroupWorkRubric.pdf}.
+Because of the emphasis on group work, it is important that you attend class regularly. I will use responses to Plicker questions to determine attendance.
+
+
+%\medskip
+%{\bf Mud Cards}
+%Often at the end of class, I will distribute Mud Cards. On these cards, you should write the ``muddiest point'' - that is, the part of class you were most confused by, or a question that was not answered in class. If nothing was confusing, then leave blank. These cards will give me feedback on what we need to go over in more detail. I will either post answers to questions on the course website by the end of the day, or we will discuss in the next class period.
+
+\medskip
+{\bf Technology in the Classroom} You may {\it not} use any type of cell phone, tablet, or computer during class (except for cases of academic accommodation). Taking notes on a laptop has been shown to lower quiz scores and be less effective \cite{doi:10.1177/0956797614524581}. Additionally, if a student multi-tasks (is distracted!) on a laptop or phone, it has been shown to not only reduce that student's quiz scores, but the quiz scores of nearby students \cite{Sana201324}.
+
+
+\medskip
+
+{\bf Problem Set} Each problem set will have two parts (with two deadlines).
+\begin{enumerate}
+\item The first deadline will be to turn in solutions to the problem set. (Make a copy before you turn it in!) This will be worth half of the total homework grade.
+\item The second part will be to turn in a self-grade and reflection of the problem set. This will include:
+\begin{itemize}
+\item A grade for each problem, (along with errors marked) based on a rubric I will provide.
+\item A one sentence reflection for each problem on why you think it was assigned, putting the problem into the context of the broader goals of the course. For example, is there a skill that the problem is helping you to practice? Or is there an aspect of a topic that the problem helps you to understand more fully? Or does this problem help you to achieve the course learning goals?
+\item A paragraph reflecting on the learning process for you in the course of both solving and grading the problem set. For example, what skills did the problem set help you to improve? are there are skills related to the problem set where you still need improvement? what concepts do you now understand, or don't yet understand? did you realize any misconceptions or repeated mistakes? what emotions did the problem set evoke (for example pride, frustration, confidence, confusion) and why?
+\end{itemize}
+\end{enumerate}
+
+Self-grading of homework assignments should be done using the rubric at \url{shelbykimmel.com/Documents/Teaching/PSgrading.pdf}
+
+The reflection and self-grading portion of the homework will be graded as follows:
+
+
+There will be no late homework accepted. If homework can not be turned in by the deadline for an approved reason (see below), accommodations will be made.
+
+\medskip
+
+
+
+% \clearpage
+{\bf Evaluation}
+
+Your final grade will be determined as follows:
+
+\begin{tabular}{@{}lr@{}l}
+Final 	& 30\% \\
+Midterm     & 20\% \\
+Quizzes  & 25\% \\
+Homework & 15\% \\
+Class Participation and Attendance & 10\%
+\end{tabular}
+
+The midterm will be *** and the final will be ***
+\medskip
+
+{\bf Excused Absences}
+If a student must miss class or an assignment because of sickness, a doctor's note must be provided. If you will need to miss class or an assignment because of religious observance, please notify me within the first two weeks of class.
+
+{\bf Final exam}
+
+The course will include a take-home final exam.  The exam will be made available on the morning of Wednesday, December 14, and will be due by 4 pm on Friday, December 16.  Students may choose to take the exam during any three-hour period during that time.
+
+\medskip
+
+{\bf Academic accommodations}
+
+Any student eligible for and requesting reasonable academic accommodations due to a disability is asked to provide, to the instructor during office hours, a letter of accommodation from the Office of Disability Support Services (DSS) within the first two weeks of the semester.
+
+If you plan to observe any holidays during the semester that are not listed on the university calendar, please provide a list of these dates by the end of the first week of the semester.
+
+As mentioned above, extensions to assignment due dates will not be granted for any reason, so that all students can have timely access to solutions.  In the event of a medical emergency that affects your ability to complete coursework, appropriate accommodations will be made.  However, you must make a reasonable attempt to notify the instructor prior to the due date, and you must provide written documentation from the Health Center or an outside health care provider.  This documentation must verify dates of treatment and indicate the timeframe that you were unable to meet academic responsibilities. It must also contain the name and phone number of the medical service provider in case verification is needed. No diagnostic information will ever be requested.
+
+\medskip
+
+{\bf Course evaluations}
+
+Course evaluations are an important part of evaluating instruction.  The Department of Computer Science and its faculty take student feedback seriously.  Students can go to \url{http://www.courseevalum.umd.edu} to complete their evaluations.
+
+
+\bibliography{syllabusBib}
+\bibliographystyle{plain}
+\end{document}
