@@ -5,7 +5,7 @@
 \usepackage[colorlinks]{hyperref}
 \usepackage{url}\urlstyle{same}
 \setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*,partopsep=0pt, parsep=0pt,after=\strut}
-
+\usepackage{amsfonts}
 \usepackage{multicol}
 \usepackage{array}
 \pagestyle{empty}
@@ -73,4 +73,68 @@
 
 
 \end{multicols}
+
+\newpage
+
+{\large 8-Point Question (Proof):}
+
+
+{\renewcommand{\arraystretch}{2}
+\begin{tabular}{|p{2.3cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
+\hline
+ & {\bf 3 points} & {\bf 2 points} & {\bf 1 points} & {\bf 0 point} \\
+\hline
+{\bf Readability }& 
+ Writing is clear and easy to read. All mathematical notation is appropriately explained. Sections of the proof are clearly demarcated (e.g. in an inductive proof, there are distinct sections for set-up, base case, inductive step, and conclusion). & 
+ Writing is generally clear and easy to read. Sections of the proof are mostly clearly laid out. Most mathematical notation is appropriately explained.& 
+ Writing can be difficult to read. Some mathematical notation is appropriately explained. & 
+ Writing is difficult to follow, and there are strings of mathematical expressions without any explanation.\\
+\hline
+{\bf Validity }& 
+Method of proof is appropriate, deductions follow the rules of logic, any calculations are correct. & 
+Method of proof is appropriate, deductions follow the rules of logic with small gaps that can be easily fixed, calculations may contain small, easily fixable mistakes. & 
+Method of proof is appropriate, but the logical steps or calculations of the proof have gaps that would be difficult to fix. & 
+Method of proof is inappropriate, or there are egregious gaps in the logic of the proof.\\
+\hline
+{\bf Conciseness} &
+
+&
+The proof does not contain unnecessary steps or unnecessary mathematical notation. Mathematical notation is used when it is clearer and more concise than English.
+&
+Some unnecessary steps or notation present. Sometimes tries to use English to explain something that would be simpler using math notation.
+&
+Proof is much more complex and wordy than it could be.\\
+\hline
+ \end{tabular}
+}
+
+
+An example of a lack of fluency is the following: you write ``$x$ is an integer'' instead of ``$x\in \mathbb{Z}$''.
+
+An example of a lack of readibility is the following: ``$x\in\mathbb{Z}\rightarrow x^2>0\rightarrow (x^2>0)\vee(y<0)$ is true.''
+
+
+\newpage
+
+{\large 5-Point Question (Pseudocode):}
+
+
+{\renewcommand{\arraystretch}{2}
+\begin{tabular}{|p{2.3cm}|p{6cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
+\hline
+& {\bf 3 points} & {\bf 2 points} & {\bf 1 point}& {\bf 0 point} \\
+\hline
+{\bf Readability }& 
+ Pseudocode is very clear, understandable, readable, and organized into as few steps as possible (without losing clarity). Input and output is defined, variable names are chosen appropriately, and comments inserted as necessary. There is enough detail that someone other than the author could create code from the pseudocode.& 
+ Most of the criterion for full credit are met, but some are missing. & Code is understandable, but it is not well organized. & 
+ Code is not understandable.\\
+\hline
+{\bf Correctness }& 
+&All steps are in the proper order, are executable, and lead to a correct output.& Some steps are out of order or missing, leading to an incorrect output. These errors could be easily fixed. & 
+Major steps are missing, and it would be difficult to fix.\\
+\hline
+
+ \end{tabular}
+}
+
 \end{document}

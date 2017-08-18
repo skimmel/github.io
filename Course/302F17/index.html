@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html>
+<title>CS 302</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="CSS/calendarCSS.css">
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card-2 w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-indigo">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-indigo"><i class="fa fa-home w3-margin-right"></i>CS 302</a>
+  <a href="#Goals" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Goals</a>
+  <a href="#Syllabus" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Syllabus and Resources</a>
+  <a href="#Cal" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Calendar</a>
+  <a href="#Instructors" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Instructors</a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#Goals" class="w3-bar-item w3-button">Goals</a>
+    <a href="#Syllabus" class="w3-bar-item w3-button">Syllabus and Resources</a>
+    <a href="#Cal" class="w3-bar-item w3-button">Calendar</a>
+    <a href="#Instructors" class="w3-bar-item w3-button">Instructors</a>
+  </div>
+</div>
+
+
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Images/sabra_field_september_corn.jpg" alt="rural landscape" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom w3-xxlarge w3-theme">  Algorithms and Complexity
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-center w3-padding-24 w3-indigo" id="Goals">
+  <h1>Goals</h1>
+</div>
+  <div class="w3-container w3-center w3-padding-24 w3-gray"> 
+<div class="w3-card w3-white w3-padding-24">
+  <h3>Learning Goals</h3>
+<ul>
+  <li>Apply standard algorithmic paradigms to create, analyze runtime of, and prove the correctness of algorithms for common, real-world applications.
+    </li>
+    <li>Appreciation of the creativity and beauty involved in algorithm design.</li>
+  <li>Appreciation of the connection between algorithms and data structures.
+  <li>Awareness of the limits of efficient algorithms.</li>
+  </li>
+  
+</ul>
+  <br>
+  <h3>Learning Objectives</h3>
+<p>After completing this course, students should be able to</p>
+  <ul> 
+    <li>Describe the following paradigms, give examples of algorithms that employ the following paradigms, classify algorithms according to the following paradigms, and create algorithms using the following paradigms:
+   <ul>
+      <li>Divide and Conquer</li>
+      <li>Dynammic Programming</li>
+      <li>Greedy</li>
+      <li>Randomized</li>
+      <li>Local Search</li>
+    </ul>
+  </li>
+    <li>Prove correctness of deterministic algorithms using inductive proofs, loop invariants, exchange arguments, and proofs by contradiction.</li>
+    <li>Analyze the runtime of algorithms. Analyze expected runtime of randomized algorithms using linearity of expectation and indicator variables.</li>
+    <li>Explain major graph algorithms and their analyses, and create new graph algorithms. </li>
+    <li>Give examples of algorithms that use data structures, and explain how the choice of data structure can affect the performance of an algorithm. </li>
+    <li>Understand the meaning of NP completeness, and describe several NP Complete problems.</li>
+    <li>Create a reduction from one problem to another.</li>
+  </ul>
+</div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-center w3-padding-24 w3-indigo" id="Syllabus">
+  <h1>Syllabus and Resources</h1>
+</div>
+  <div class="w3-container w3-center w3-padding-24 w3-gray"> 
+<div class="w3-card w3-white w3-padding-24">
+
+
+<h3>Rubrics and Resources</h3>
+<ul>
+  <li>Reflection Worksheet <a href="http://shelbykimmel.com/Documents/Teaching/Templates/Reflection.pdf">(.pdf)</a> <a href="http://shelbykimmel.com/Documents/Teaching/Templates/Reflection.tex">(.tex)</a></li>
+  <li><a href="http://shelbykimmel.com/Documents/Teaching/SampleSelfGrade/SampleTotal.pdf">Sample Self Grade and Reflection</a></li>
+  <li><a href="http://shelbykimmel.com/Documents/Teaching/Templates/PSgrading.pdf">Problem Set Grading Rubric</a></li>
+  <li><a href="http://shelbykimmel.com/Documents/Teaching/Templates/ReflectionGrading.pdf">Reflection Grading Rubric</a></li>
+  <li><a href="http://shelbykimmel.com/Documents/Teaching/Templates/GroupWorkRubric.pdf">Group Work Grading Rubric</a></li>
+</ul>
+
+
+  <h3>Syllabus</h3>
+
+ <p>The syllabus contains important information! You are expected to be familiar with all of the information contained in the syllabus.</p> 
+
+  <p><b>Time and location:</b><br> Monday, Wednesday, Friday @ 1:45 PM in MBH 538 </p>
+
+  <p><b>Texts:</b><br> There are no required texts. I will post lecture notes after each lecture. If you would like a different perspective from the one I provide in class, I suggest:
+    <ul>
+      <li> Algorithms by Dasgupta, Papadimitriou, and Vazirani</li>
+      <li>Algorithms and Data Structures by Mehlhorn and Sanders</li>
+    </ul></p>
+  
+  <p><b>Prerequisites:</b><br> CSIC 200 and 201. We will be writing a lot of proofs in this course, so please review your proof writing notes from 200. Here is a short <a href="http://www.ms.uky.edu/~kott/proof_help.pdf">guide</a> to writing a good proof.
+</p>
+
+<p><b>Growth Mindset:</b><br> I expect all students to work to develop a growth mindset: awareness that intelligence is not fixed, but can increase through practice. I will provide many low-stakes opportunities for you to practice skills before your learning is assessed through quizzes and tests. Low-stakes practice opportunities include in-class active learning exercises and problem sets. In-class activities are graded not for correctness, but for participation, according to  <a href="http://shelbykimmel.com/Documents/Teaching/Templates/GroupWorkRubric.pdf"> this rubric.</a> While the problem sets are graded based on correctness, they account for a small portion of your total grade. (The primary purpose of having a grade is to encourage you to do them.) Furthermore, half of each homework grade is based on a self-grade and reflection, which is independent of the correctness of you homework. This self-grade and reflection will give you an opportunity to recognize mistakes and identify areas for further practice as needed. 
+
+</p>
+<p>
+Part of developing a growth mindeset is viewing critical feedback (through grades or other forms of assessment) for what it is: an opportunity to understand your weaknesses and improve on them, rather than a sign of failure. This perspective will not only tend to improve your grades, but will make learning more enjoyable.
+</p>
+
+<p><b>Group Work:</b><br> Students will be assigned to small groups. You will work with your group in class to solve and discuss problems.
+Groups will be assigned randomly. Diverse groups tend to perform better than
+homogeneous groups, so please think about what diverse perspectives or
+background you might bring to your group. Your participation will be graded according to <a href="http://shelbykimmel.com/Documents/Teaching/Templates/GroupWorkRubric.pdf"> this rubric.</a>
+</p>
+
+<p><b>Attendance:</b><br> Because of the emphasis on group work, it is important that you attend class regularly. I will use responses to Plicker questions to determine attendance. For each unexcused absence after the first, you will receive a 3.33% deduction from your final grade.</p>
+
+
+<p><b>Technology in the Classroom</b><br> You may <b>NOT</b> use any type of cell phone, tablet, or computer during class (except for cases of academic accommodation). Taking notes on a laptop has been shown to be less effective and lower quiz scores not only for the student using the device, but for nearby students as well. </p>
+
+<p><b>Problem Sets</b> <br> As mentioned above, problem sets are an
+opportunity for you to practice the skills of this course, and to become aware
+of areas for further practice and improvement. Because of this, only a small
+part of your grade is based on the correctness of your responses. </p> <p>
+Each problem set will have two deadlines: (1) a problem set deadline and (2)
+self-grade/reflection deadline. Part 1 is your (attempted) solutions to the
+problem set. These must be submitted electronically in pdf form via Canvas by
+the start of class on the day the assignment is due. If done by hand, you
+should use a scanner to create a pdf version to submit. Retain the hard copy
+of Part 1, which you will need for the self-grade. 
+
+<p>
+ The problem set solutions will be posted soon after class on the day the homework is due. You should use these solutions to complete Part 2 of the assignment. Part 2 should be turned in as a paper copy at the beginning of class on the day it is due.
+  Part 2 consists of
+  </p>
+      <ul>
+        <li>Self-Grade: Marked up problem set showing points earned for each problem, (along with errors marked) based on <a href="http://shelbykimmel.com/Documents/Teaching/Templates/PSgrading.pdf">this rubric.</a></li>
+        <li>Reflection: A paragraph or two reflecting on your learning process while solving and grading the problem set. See <a href="">TODOthis sheet</a> for inspiration/instructions.  </li>
+
+         </ul>
+<p>
+ 50% of your homework grade will be based on the correctness of Part 1 and 50% of your homework grade will be based on the quality of Part 2. The grade for Part 1 will primarily come from your self-grade (which we will spot check), and the grade for Part 2 will be based on <a href="http://shelbykimmel.com/Documents/Teaching/Templates/ReflectionGrading.pdf">this rubric.</a>
+</p>
+
+<p>It is very important that you submit Part 1 on time, because I will be
+posting solutions soon after the deadline, so that you can complete Part 2.
+Late Part 1 submissions will receive zero credit for Part 1. However, you may
+still recieve full credit for Part 2 even if Part 1 is late. Late Part 2
+submissions will receive 50% credit for Part 2 if turned in before 5pm on the day they
+are due. Otherwise, you will receive no credit for Part 2, but will recieve credit for Part 1 (based on your self-grade) whenever you turn in Part 2. If homework is late for an excused reason, see below, accomodation will be made. </p>
+
+<p>
+If you find during the self-grade that you have made a serious mistake, I
+recommend looking at the solution, then putting the solution away and trying to solve the problem again. This practice will help you to learn. If you find that you need more practice, try looking for relevant problems in the textbooks listed above, or ask me for suggestions.</p>
+
+
+<p>
+Think of your homework as an essay. Just as you should not turn in a first draft of an essay for an assignment, you should not turn in a first draft of your homework. Writing good proofs/pseudocode/etc takes multiple revisions. While you may turn in (scanned) hand-written homework, typing your homework will make it easier to revise. I recommend LaTex, but it is not required. See <a href="http://www.andy-roberts.net/writing/latex">these tutorials</a>  for a good introduction to LaTex.
+</p>
+
+<p>
+You will not receive credit for homework that is illegible.
+</p>
+
+<p>
+If you find a mistake in my solutions, I
+will give you bonus points worth the amount that would have been taken off for my error. </p>
+
+
+
+<p><b>Quizzes and Tests</b></p>
+
+  <p>There will be quizzes on all days that Self-Grade/Reflections (Part 2) are due. Quizzes will usuallly consist of two problems, one similar to problems from the problem set whose Part 2 you are submitting that day, and one from earlier problem sets.</p>
+
+  <p>The midterm will be *** and the final will be ***.</p>
+
+  <p><b>Get Out of Jail Free Cards</b><br>
+	I will drop your two lowest homework scores and quiz scores.
+  </p>
+
+  <p><b>Evaluation</b><br>
+
+Your final grade will be determined as follows:
+<br>
+Final:30% 
+<br>Midterm:      20% 
+<br>Quizzes:   20% 
+<br>Homework:  20% 
+<br>Class Participation and Attendance:  10%
+</p>
+
+
+
+
+<p><b>Honor Code:</b> <br>You are expected to maintain the highest level of academic integrity in this course. This means that work you submit in CS302 must be the result of your own individual effort. You may discuss homework problems, general proof strategies, or algorithms with other students in the course, but you may not collaborate in the actual writing of problem sets. Each student must write up his or her own solutions, and may not read or copy another's solutions or solutions from previous semesters. This implies that one student should never have in her or his possession a copy of all or part of another student's homework. It is your own responsibility to protect your work from unauthorized access. </p>
+
+<p>The exams and quizzes must be entirely your own work. You may not share any information about tests or quizzes with any other students, either within or outside of the course.</p>
+
+<p>For those who plan to work on homework sets with others, I suggest the following procedure: spend as much time as you need working with others to understand the problems, take a break to do something else, and then go back and write up your solutions without the notes you used while working with the others. This will help ensure that you follow both the letter and the spirit of the honor code.</p>
+
+<p><b>Office Hours</b><br>
+Please come to office hours (both mine and the TA's) with specific questions, comments, or concerns.
+I will not answer coding questions or problem set questions via e-mail. Please come to office hours.</p>
+
+<p><b>Excused Absences:</b><br> 
+If you miss class or an assignment because of sickness, a doctor/nurse's note should be provided. If you will miss class or an assignment because of a religious observance, please notify me within the first two weeks of class. Other absences will be dealt with on a case by case basis, but please let me know as early as possible if you will be missing class. If you miss class, you are still responsible for the missed material, and you should carefully read the lecture notes. I will be happy to answer questions related to the lecture, but I will not repeat the lecture for students who missed the original.</p>
+
+<p><b>Academic Accommodation:</b> <br>Students with documented disabilities who may need accommodations in this class (e.g., extra time on exams) are encouraged to contact me as early as possible to ensure that such accommodations are implemented in a timely fashion. Assistance is available to eligible students through the ADA Office. Please contact Jodi Litchfield, the ADA Coordinator, at litchfie@middlebury.edu or 802-443-5936 for more information. All discussions will remain confidential.</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+<!--Calendar!!-->
+<div class="w3-container w3-center w3-padding-24 w3-indigo"  id="Cal">
+    <h1>Calendar</h1>
+</div>
+
+<div class="w3-container w3-center w3-padding-24 w3-gray "> 
+
+<div class="w3-card w3-white w3-padding-24 CalIntro"> 
+NOTE! This calendar is subject to change (except for past dates.) Please check regularly.
+
+<br>
+<br>
+
+	<span ><a id="ThisWeekLabel" href="#ThisWeek">Jump to This Week</a> </span><br>
+
+	<br>
+	<span class="CalendarLabel"><span class="lec tag">class</span>: Reading/Class</span>
+	<span class="CalendarLabel"><span class="test tag">eval</span>: Quiz or Test</span>
+	<span class="CalendarLabel"><span class="PS tag">PS</span>: Problem Set or Other Assignment</span>
+	<br>
+	<br>
+	Topics: <span class="CalendarLabel"><span class="topic">DCR:</span>Divide and Conquer / Recursion </span>
+	<span class="CalendarLabel"><span class="topic">DP:</span>Dynamic Programming</span>
+	<span class="CalendarLabel"><span class="topic">GD:</span>Greedy</span>
+	<span class="CalendarLabel"><span class="topic">GR:</span>Graph</span> <span class="CalendarLabel"><span class="topic">NP:</span>NP Problems</span>
+	</div>
+
+<div class="w3-row" id="ThisWeek" >
+
+<div class="w3-third">
+   <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3 >Monday, Sept. 11</h3>
+      </header>
+      <div class="info w3-container">
+     <span class="lec tag">class</span> Introductions<br>
+       <span class="PS tag">PS</span> Assign: <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8Byxobzx8nUlMndPX8Z4C8tSISn1RoBm--8n8qcp-WGfHEw/viewform">Questionnaire</a><br>
+       <span class="PS tag">PS</span> Assign: PS1
+        <br>
+     </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+ <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Sept. 13</h3>
+      </header>
+      <div class="info w3-container">
+        <span class="lec tag">class</span> <span class="topic">DCR:</span><!--  Multiplication--><br>
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Sept. 15</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">DCR:</span><!--  Closest Points--><br>
+      <span class="test tag">eval</span> Quiz: Syllabus and Resources <br>
+      <span class="PS tag">PS</span> Due: <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8Byxobzx8nUlMndPX8Z4C8tSISn1RoBm--8n8qcp-WGfHEw/viewform">Questionnaire</a><br>
+     </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Monday, Sept. 18</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">DCR:</span><!-- Master Method 1
+      Assign Groups--><br>
+        <span class="PS tag">PS</span> Due: PS1
+      </div>
+      </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Sept. 20</h3>
+      </header>
+      <div class="info w3-container">
+      		 <span class="lec tag">class</span> <span class="topic">DCR:</span><!-- Master Method 2
+      		 Go over homework grading--><br>
+    </div>
+  </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Sept. 22</h3>
+      </header>
+      <div class="info w3-container">
+      	<span class="lec tag">class</span> <span class="topic">DCR:</span><!-- Randomized QuickSort 1--><br>
+      	<span class="test tag">eval</span> Quiz: PS1 <br>
+      	 <span class="PS tag">PS</span> Due: Reflection/Grade PS1
+    </div>
+    </div>
+</div>
+
+</div>
+
+
+
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Monday, Sept. 25</h3>
+      </header>
+      <div class="info w3-container">
+      		<span class="lec tag">class</span> <span class="topic">DCR:</span><!-- Randomized QuickSort 2--><br>
+      		<span class="PS tag">PS</span> Due: PS2
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Sept. 27</h3>
+      </header>
+      <div class="info w3-container">
+        <span class="lec tag">class</span> <span class="topic">DCR:</span><!-- Randomized Selection 1--><br>
+        </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Sept. 29</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">DCR:</span><!-- Randomized Selection 2--><br>
+      <span class="test tag">eval</span> Quiz: PS2 <br>
+      <span class="PS tag">PS</span> Due: Reflection/Grade PS2
+    </div>
+    </div>
+</div>
+
+
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Monday, Oct. 2</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">DP:</span><!-- Max Weight I.S.--><br>
+	<span class="PS tag">PS</span> Due: PS3
+       </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Oct. 4</h3>
+      </header>
+      <div class="info w3-container">
+      	<span class="lec tag">class</span> <span class="topic">DP:</span><!-- MWIS 2--><br>
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Oct. 6</h3>
+      </header>
+      <div class="info w3-container">
+      	<span class="lec tag">class</span> <span class="topic">DP:</span><!-- Knapsack--><br>
+      	<span class="test tag">eval</span> Quiz: PS3 <br>
+      	<span class="PS tag">PS</span> Due: Reflection/Grade PS3
+      </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Monday, Oct. 9</h3>
+      </header>
+      <div class="info w3-container"> 
+      <span class="lec tag">class</span><span class="topic">DP:</span><!-- Sequence Alignment 1--><br>
+      
+	<span class="PS tag">PS</span> Due: PS4
+	</div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Oct. 11</h3>
+      </header>
+      <div class="info w3-container">
+<span class="lec tag">class</span><span class="topic">DP:</span><!-- Sequence Alignment 2--><br>
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Oct. 13</h3>
+      </header>
+      <div class="info w3-container">
+       	<span class="lec tag">class</span> <span class="topic">GD:</span><!-- Scheduling 1--><br>
+      	
+      	<span class="test tag">eval</span> Quiz: PS4 <br>
+      	<span class="PS tag">PS</span> Due: Reflection/Grade PS4
+      </div>
+    </div>
+    </div>
+</div>
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Monday, Oct. 16</h3>
+      </header>
+      <div class="info w3-container"> 
+      <span class="lec tag">class</span> <span class="topic">GD:</span><!-- Scheduling 2--><br>
+       
+	<span class="PS tag">PS</span> Due: PS5
+      </div>
+
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Oct. 18</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> Midterm Review <br>  
+      <span class="test tag">eval</span> Midterm on <b> Thursday Oct. 19</b>. Time/Format TBD <br>
+      
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Oct. 20</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">GD:</span><!-- Huffman Codes 1--><br>  
+      <span class="test tag">eval</span> Quiz: PS5 <br>
+      	<span class="PS tag">PS</span> Due: Reflection/Grade PS5
+      	
+      </div>
+    </div>
+    </div>
+</div>
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container NoClass"> 
+        <h3>Monday, Oct. 23</h3>
+      </header>
+      <div class="info w3-container"> 
+      No Class!
+     </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Oct. 25</h3>
+      </header>
+      <div class="info w3-container">
+       <span class="lec tag">class</span> <span class="topic">GD:</span><!-- Huffman Codes 2--><br>
+    
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Oct. 27</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">GD:</span><!-- 2-SAT--><br>
+     
+      	<span class="PS tag">PS</span> Due: Reflection/Grade of Midterm
+      </div>
+    </div>
+    </div>
+</div>
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Monday, Oct. 30</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">GR:</span><!-- Graphs --><br>
+      <span class="PS tag">PS</span> Due: PS6<br>
+      	</div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Nov. 1</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">GR:</span><!-- Shortest Path 1 (BFS) --><br>
+     
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Nov. 3</h3>
+      </header>
+      <div class="info w3-container">
+       <span class="lec tag">class</span> <span class="topic">GR:</span><!-- Shortest Path 2a (Dijkstra) --><br>
+       <span class="test tag">eval</span> Quiz: PS6 <br>
+      	 <span class="PS tag">PS</span> Due: Reflection/Grade PS6 <br>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Monday, Nov. 6</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">GR:</span><!-- Shortest Path 2b (Dijkstra) --><br>
+      <span class="PS tag">PS</span> Due: PS7<br>
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Nov. 8</h3>
+      </header>
+      <div class="info w3-container">
+      	<span class="lec tag">class</span> <span class="topic">GR:</span><!-- Shortest Path 3 (Bellman-Ford)--> <br>
+      
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Nov. 10</h3>
+      </header>
+      <div class="info w3-container">
+      	<span class="lec tag">class</span> <span class="topic">GR:</span><!-- Strongly Connected Components--> <br>
+      	<span class="test tag">eval</span> Quiz: PS7 <br>
+      	<span class="PS tag">PS</span> Due: Reflection/Grade PS7 <br>
+      </div>
+    </div>
+    </div>
+</div>
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Monday, Nov. 13</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">GR:</span><!-- Minimum Spanning Tree 1 --><br>
+      	<span class="PS tag">PS</span> Due: PS8<br>
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Nov. 15</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">GR:</span><!-- Minimum Spanning Tree 2 --><br>
+      	
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Nov. 17</h3>
+      </header>
+      <div class="info w3-container">
+      <span class="lec tag">class</span> <span class="topic">GR:</span><!-- Minimum Cut --><br>
+        <span class="test tag">eval</span> Quiz: PS8 <br>
+      <span class="PS tag">PS</span> Due: Reflection/Grade PS8 <br>
+      </div>
+    </div>
+    </div>
+</div>
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Monday, Nov. 20</h3>
+      </header>
+      <div class="info w3-container">
+      	<span class="lec tag">class</span> <span class="topic">GR:</span><!-- Network Flows 1 --><br>
+      	<span class="PS tag">PS</span> Due: PS9<br>
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container NoClass"> 
+        <h3>Wednesday, Nov. 22</h3>
+      </header>
+      <div class="info w3-container">
+   				No Class!
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container NoClass"> 
+        <h3>Friday, Nov. 24</h3>
+      </header>
+      <div class="info w3-container">
+      	No Class!
+      </div>
+    </div>
+    </div>
+</div>
+
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Monday, Nov. 27</h3>
+      </header>
+      <div class="info w3-container">
+      		<span class="lec tag">class</span> <span class="topic">GR:</span><!-- Network Flows 2  --><br>
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Nov. 29</h3>
+      </header>
+      <div class="info w3-container">
+      	<span class="lec tag">class</span> <span class="topic">NP:</span><!-- Easy and Hard Problems  --><br>
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Dec. 1</h3>
+      </header>
+      <div class="info w3-container">
+      	<span class="lec tag">class</span> <span class="topic">NP:</span><!-- Reductions 1 --><br>
+      	  <span class="test tag">eval</span> Quiz: PS9 <br>
+      	<span class="PS tag">PS</span> Due: Reflection/Grade PS9 <br>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+
+<div class = "w3-row">
+
+  <div class="w3-third"> 
+    
+    <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Monday, Dec. 4</h3>
+      </header>
+      <div class="info w3-container">
+      	<span class="lec tag">class</span> <span class="topic">NP:</span><!-- Reductions 2 --><br>
+      	<span class="PS tag">PS</span> Due: PS10<br>
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Wednesday, Dec. 6</h3>
+      </header>
+      <div class="info w3-container">
+      	<span class="lec tag">class</span> <span class="topic">NP:</span><!-- Approaches to Hard Problems-->  <br>
+      </div>
+    </div>
+  </div>
+
+ <div class="w3-third">
+      <div class="date w3-card-4">
+      <header class="w3-container date"> 
+        <h3>Friday, Dec. 8</h3>
+      </header>
+      <div class="info w3-container">
+      	<span class="lec tag">class</span> <span class="topic">NP:</span><!-- Wrap-up. World of Algorithms-->  <br>
+      	  <span class="test tag">eval</span> Quiz: PS10 <br>
+      	<span class="PS tag">PS</span> Due: Reflection/Grade PS10 <br>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+</div>
+
+  </div>
+
+
+<!-- Google Maps -->
+<div class="w3-container w3-padding-24 w3-indigo w3-center" id="Instructors">
+  <h1>Instructors</h1>
+</div>
+
+<div class="w3-container w3-padding-24 w3-gray">
+  <div class="w3-row w3-padding w3-white">
+    <h4>Prof. Shelby Kimmel</h4>
+    <div class="w3-third" style="margin-right:50px">
+      <img src="Images/shelbyKimmelWeb.jpg" alt="Shelby Kimmel Headshot" style="max-height:150px">
+    </div>
+    <div class="w3-container w3-rest">
+      
+      Office: MBH 635
+      <br>
+      Office Hours:
+      <ul>
+      	<li> Drop-in: Mon, Wed 3-4, and Tues 1:30-2:30.
+      	<li> By Appointment (please e-mail): Tuesday 9am-noon</li>
+      </ul>
+      If none of these times work for you and you would like to meet with me, please e-mail me to arrange a meeting. 
+      <br> 
+      Email: <a href="mailto:skimmel@middlebury.edu">skimmel [at] middlebury [dot] edu</a>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding w3-white">
+          <h4>Prof. Shelby Kimmel</h4>
+    <div class="w3-third" style="margin-right:50px">
+
+      <img src="Images/shelbyKimmelWeb.jpg" alt="Shelby Kimmel Headshot" style="max-height:150px">
+    </div>
+    <div class="w3-container w3-rest">
+      
+      Office: MBH 635
+      <br>
+      Office Hours: 
+      <br> 
+      Email: <a href="mailto:skimmel@middlebury.edu">skimmel [at] middlebury [dot] edu</a>
+    </div>
+  </div>
+
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
