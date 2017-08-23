@@ -1,0 +1,56 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[linesnumbered,lined]{algorithm2e}
+\usepackage{scrextend}
+\makeatletter
+\renewcommand{\@algocf@capt@plain}{above}% formerly {bottom}
+\makeatother
+\usepackage{enumitem}
+\setlist[enumerate]{listparindent=\parindent}
+\usepackage{cleveref}%[nameinlink]
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{definition}{Definition}{Definitions}
+\crefname{theorem}{Theorem}{Theorems}
+\crefname{conjecture}{Conjecture}{Conjectures}
+\crefname{corollary}{Corollary}{Corollaries}
+\crefname{section}{Section}{Sections}
+\crefname{appendix}{Appendix}{Appendices}
+\crefname{figure}{Fig.}{Figs.}
+\crefname{equation}{Eq.}{Eqs.}
+\crefname{table}{Table}{Tables}
+\crefname{algocf}{Algorithm}{Algorithms}
+
+\title{Problem Set 0 - Solutions}
+\author{}
+\date{}
+
+\parindent=.25in
+
+\parskip 7.2pt 
+
+\begin{document}
+\maketitle
+
+Please read the sections of the syllabus on problem sets and honor code before starting this homework.
+
+
+\begin{enumerate}
+\item  \textbf{[8 points]} Prove that for every odd integer $n$, $n^2-1$ is divisible by 8. 
+
+\end{enumerate}
+
+{\paragraph{Solution} Let $n$ be an odd integer. Then we can write $n=2k+1$, where $k\in \mathbb{Z}.$ Then
+\begin{align}
+n^2-1=(2k+1)^2-1=4k^2+4k=4(k^2+k).
+\end{align}
+Note that if $k^2+k$ is even, then $n^2-1$ is divisible by $8$, and we have our result.
+
+We conider two cases: $k$ is even, or $k$ is odd. If $k$ is even, then $k^2$ is even, and so $k^2+k$ is even, because the sum of two even numbers is another even number. If $k$ is odd, then $k^2$ is odd, and so $k^2+k$ is odd, because the sum of two odd numbers is an even number.
+
+Therefore, in either case, $k^2+k$ is even, so $4(k^2+k)$, and hence $n^2-1$, is divisible by $8.$ for every odd integer $n$.}
+
+\end{document}

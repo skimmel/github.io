@@ -1,0 +1,94 @@
+\documentclass[11pt,landscape]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage[colorlinks]{hyperref}
+\usepackage{url}\urlstyle{same}
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*,partopsep=0pt, parsep=0pt,after=\strut}
+\usepackage{amsfonts}
+\usepackage{multicol}
+\usepackage{array}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+
+\begin{document}
+
+\hfill Shelby Kimmel
+
+\begin{center}
+{\huge Grading Rubric for Programming Problems}
+\end{center}
+\bigskip
+
+Programming assignments will be graded based on a 30-point rubric (see next page). On this page, we give a little more information about the categories in the rubric:
+
+\begin{itemize}
+\item \textbf{Program Specifications:} You program should work correctly on all inputs. Also, if there any specifications about how the program should be written, or how the output should appear, those specifications should be followed.
+
+\item \textbf{Readability:} Variables and functions should have meaningful names. Code should be organized into functions/methods where appropriate. There should be an appropriate amount of white space so that the code is readable, and indentation should be consistent.
+
+\item \textbf{Documentation} Your code and functions/methods should be appropriately commented. However, not every line should be commented because that makes your code overly busy. Think carefully about where comments are needed. 
+
+\item \textbf{Code Efficiency} There are many ways to write the same functionality into your code, and some of them are needlessly slow or complicated. For example, if you are repeating the same code, it should be inside  creating a new method/function or for loop.
+
+\item \textbf{Assignment Specifications} The assignment will likely require you to save your file with a certain file name, or include extra files. These tasks fall under ``assignment specifications.''
+\end{itemize}
+
+
+{\renewcommand{\arraystretch}{2}
+\begin{tabular}{|p{3.3cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
+\hline
+{\bf Program \newline Correctness } & {\bf 15 points} & {\bf 10 points} & {\bf 5 points} & {\bf 0 point} \\
+\hline
+& 
+ Program always works correctly and meets the specifications& 
+ Minor details of the program specification are violated, program functions incorrectly on some inputs.& 
+ Significant details of specification are violated, or the program often exhibits incorrect behavior.& 
+ Program only functions correctly in limited cases or not at all.\\
+\hline
+{\bf Readability } & {\bf 6 points} & {\bf 4 points} & {\bf 2 points} & {\bf 0 point} \\
+\hline
+& 
+Code is clean, understandable, well-organized &
+Minor issues such as inconsistent indentation, variable naming, general organization & 
+At least one major issue that makes it difficult to read & 
+Several major issues that make it difficult to read.\\
+\hline
+{\bf Documentation} & {\bf 3 points}& {\bf 2 points} & {\bf 1 points} & {\bf 0 point} \\
+\hline
+ &
+Code is well commented. 
+&
+One or two places could benefit from comments, or the code is overly commented
+&
+Major lack of comments make it difficult to understand code.
+&
+No comments.\\
+\hline
+{\bf Code Efficiency } & & {\bf 4 points} & {\bf 2 points} & {\bf 0 point} \\
+\hline
+& &
+Code uses an easy, fast approach &
+Code uses a poorly chosen approach in at least one place & 
+Many instances where code could have used easier/faster/better approach.\\
+\hline
+{\bf Assignment specifications} & & {\bf 2 points} & {\bf 1 points} & {\bf 0 point} \\
+\hline
+ & &
+Assignment meets specifications
+&
+Minor specifications are violated
+&
+Significant specifications ignored or violated
+\\
+\hline
+ \end{tabular}
+}
+
+
+
+
+
+
+\end{document}
