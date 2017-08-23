@@ -82,14 +82,6 @@
 {\renewcommand{\arraystretch}{2}
 \begin{tabular}{|p{2.3cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
 \hline
-{\bf Readability } & {\bf 3 points} & {\bf 2 points} & {\bf 1 points} & {\bf 0 point} \\
-\hline
-& 
- Writing is clear and easy to read. All mathematical notation is appropriately explained. Proof structured correctly (e.g. in inductive proof, sections for set-up, base case, inductive step, and conclusion). & 
- Writing is generally clear and easy to read. Sections of the proof are mostly clearly laid out and structured. Most mathematical notation is appropriately explained.& 
- Writing can be difficult to read. Some mathematical notation is appropriately explained. & 
- Writing is difficult to follow, and there are strings of mathematical expressions without any explanation.\\
-\hline
 {\bf Validity } & {\bf 6 points} & {\bf 4 points} & {\bf 2 points} & {\bf 0 point} \\
 \hline
 & 
@@ -97,6 +89,14 @@ Method of proof is appropriate, deductions follow the rules of logic, any calcul
 Method of proof is appropriate, deductions and/or calculations may contain small, easily fixable mistakes. & 
 Method of proof is appropriate, but the logical steps or calculations of the proof have gaps that would be difficult to fix. & 
 Method of proof is inappropriate, or there are egregious gaps in the logic of the proof.\\
+\hline
+{\bf Readability } & {\bf 3 points} & {\bf 2 points} & {\bf 1 points} & {\bf 0 point} \\
+\hline
+& 
+ Writing is clear and easy to read. All mathematical notation is appropriately explained. Proof structured correctly (e.g. in inductive proof, sections for set-up, base case, inductive step, and conclusion). & 
+ Writing is generally clear and easy to read. Sections of the proof are mostly clearly laid out and structured. Most mathematical notation is appropriately explained.& 
+ Writing can be difficult to read. Some mathematical notation is appropriately explained. & 
+ Writing is difficult to follow, and there are strings of mathematical expressions without any explanation.\\
 \hline
 {\bf Conciseness} & & {\bf 2 points} & {\bf 1 points} & {\bf 0 point} \\
 \hline
@@ -124,6 +124,11 @@ Proof is much more complex and wordy than it could be.\\
 {\renewcommand{\arraystretch}{2}
 \begin{tabular}{|p{2.3cm}|p{6cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
 \hline
+{\bf Correctness }& {\bf 6 points} & {\bf 4 points} & {\bf 2 point}& {\bf 0 point} \\
+\hline
+&All steps are in the proper order, are executable, and lead to a correct output.& Some steps are out of order or missing, leading to an incorrect output. These errors could be easily fixed. & 
+Several steps are missing or out of order, and it would be difficult to fix& The code contains serious mistakes that show a lack of understanding of the problem and appropriate approaches.\\
+\hline
 {\bf Readability }& {\bf 3 points} & {\bf 2 points} & {\bf 1 point}& {\bf 0 point} \\
 \hline
 & 
@@ -131,11 +136,6 @@ Proof is much more complex and wordy than it could be.\\
  Most of the criterion for full credit are met, but some are missing. & Code is understandable, but it is not well organized. & 
  Code is not understandable.\\
  \hline
-{\bf Correctness }& {\bf 6 points} & {\bf 4 points} & {\bf 2 point}& {\bf 0 point} \\
-\hline
-&All steps are in the proper order, are executable, and lead to a correct output.& Some steps are out of order or missing, leading to an incorrect output. These errors could be easily fixed. & 
-Several steps are missing or out of order, and it would be difficult to fix& The code contains serious mistakes that show a lack of understanding of the problem and appropriate approaches.\\
-\hline
 
  \end{tabular}
 }
