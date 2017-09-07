@@ -1,4 +1,4 @@
-@article{kimmel2015quantum,
+@article{kimmeldesign,
   title={Phase retrieval using unitary 2-designs.},
   author={Kimmel, Shelby and Liu, Yi-Kai},
   journal={Proc. of SAMPTA 2017},
