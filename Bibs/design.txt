@@ -1,6 +1,9 @@
 @article{kimmel2015quantum,
-  title={Quantum Compressed Sensing Using 2-Designs},
+  title={Phase retrieval using unitary 2-designs.},
   author={Kimmel, Shelby and Liu, Yi-Kai},
-  journal={arXiv preprint arXiv:1510.08887},
-  year={2015}
+  journal={Proc. of SAMPTA 2017},
+  publisher={IEEE},
+  pages={345-349},
+  year={2017},
+  doi={10.1109/SAMPTA.2017.8024414}
 }
