@@ -1,6 +1,13 @@
-@article{jeffery2015nand,
-  title={Quantum Algorithms for Graph Connectivity and Formula Evaluation},
-  author={Jeffery, Stacey and Kimmel, Shelby},
-  journal={arXiv preprint arXiv:1704.00765},
-  year={2015}
+@article{Jeffery2017algorithmsgraph,
+  doi = {10.22331/q-2017-08-17-26},
+  url = {https://doi.org/10.22331/q-2017-08-17-26},
+  title = {Quantum algorithms for graph connectivity and formula evaluation},
+  author = {Jeffery, Stacey and Kimmel, Shelby},
+  journal = {{Quantum}},
+  issn = {2521-327X},
+  publisher = {{Verein zur F{\"{o}}rderung des Open Access Publizierens in den Quantenwissenschaften}},
+  volume = {1},
+  pages = {26},
+  month = aug,
+  year = {2017}
 }
