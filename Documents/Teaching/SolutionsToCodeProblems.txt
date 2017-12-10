@@ -1,0 +1,5 @@
+# If getting error that easy-install.pth can not be removed because it does not exist...see e.g. https://github.com/ContinuumIO/anaconda-issues/issues/542
+# Before doing pip install qiskit, do: 
+pip install --upgrade setuptools --ignore-installed
+# Then do
+pip install qiskit
