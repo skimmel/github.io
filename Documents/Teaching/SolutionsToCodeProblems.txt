@@ -3,3 +3,19 @@
 pip install --upgrade setuptools --ignore-installed
 # Then do
 pip install qiskit
+
+
+
+#To compile java package, do javac PackageName/*.java from directory containing Package File
+#Then do PackageName.mainSrc to run
+
+#To run a python function from the command line, do python Filename.py functioninput?
+
+#To run using python2.7 instead of python 3 (already created environment using conda...)
+# To activate this environment, use:
+# > source activate py27
+#
+# To deactivate this environment, use:
+# > source deactivate py27
+
+#Add java .jars to Library/java/Extensions
