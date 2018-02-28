@@ -1,0 +1,6 @@
+@article{kimmel2018seals,
+  title={No-Go for Quantum Seals},
+  author={Kimmel, Shelby and Kolkowitz, Shimon},
+  journal={arXiv preprint arXiv:1802.10007},
+  year={2018}
+}
