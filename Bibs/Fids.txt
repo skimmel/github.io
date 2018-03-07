@@ -1,0 +1,6 @@
+@article{kimmel2018seals,
+  title={Recovering quantum gates from few average gate fidelities},
+author = {{Roth}, I. and {Kueng}, R. and {Kimmel}, S. and {Liu}, Y.-K. and {Gross}, D. and {Eisert}, J. and {Kliesch}, M.},
+  journal={arXiv preprint arXiv:1803.00572},
+  year={2018}
+}
