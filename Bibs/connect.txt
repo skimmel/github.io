@@ -1,0 +1,6 @@
+@article{JJKP2018,
+  title={Quantum Algorithms for Connectivity and Related Problems},
+  author={M. Jarret and S. Jeffery and S. Kimmel and A. Piedrafita},
+  journal={arXiv preprint 	arXiv:1804.10591},
+  year={2018}
+}
