@@ -1,0 +1,6 @@
+@article{roth2018recovering,
+  title={Recovering quantum gates from few average gate fidelities},
+  author={Roth, Ingo and Kueng, Richard and Kimmel, Shelby and Liu, Yi-Kai and Gross, David and Eisert, Jens and Kliesch, Martin},
+  journal={arXiv preprint arXiv:1803.00572},
+  year={2018}
+}
