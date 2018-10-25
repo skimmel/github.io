@@ -1,0 +1,14 @@
+@article{PhysRevLett.121.170502,
+  title = {Recovering Quantum Gates from Few Average Gate Fidelities},
+  author = {Roth, I. and Kueng, R. and Kimmel, S. and Liu, Y.-K. and Gross, D. and Eisert, J. and Kliesch, M.},
+  journal = {Phys. Rev. Lett.},
+  volume = {121},
+  issue = {17},
+  pages = {170502},
+  numpages = {8},
+  year = {2018},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.121.170502},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.121.170502}
+}
