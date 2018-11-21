@@ -1,6 +1,18 @@
-@article{fefferman2015quantum,
-  title={Quantum vs Classical Proofs and Subset Verification},
-  author={Fefferman, Bill and Kimmel, Shelby},
-  journal={arXiv preprint arXiv:1510.06750},
-  year={2015}
+@InProceedings{fefferman_et_al:LIPIcs:2018:9604,
+  author =	{Bill Fefferman and Shelby Kimmel},
+  title =	{{Quantum vs. Classical Proofs and Subset Verification}},
+  booktitle =	{43rd International Symposium on Mathematical Foundations  of Computer Science (MFCS 2018)},
+  pages =	{22:1--22:23},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-086-6},
+  ISSN =	{1868-8969},
+  year =	{2018},
+  volume =	{117},
+  editor =	{Igor Potapov and Paul Spirakis and James Worrell},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{http://drops.dagstuhl.de/opus/volltexte/2018/9604},
+  URN =		{urn:nbn:de:0030-drops-96040},
+  doi =		{10.4230/LIPIcs.MFCS.2018.22},
+  annote =	{Keywords: Quantum Complexity Theory, Quantum Proofs}
 }
