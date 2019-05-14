@@ -1,0 +1,6 @@
+@article{delorenzo2019apps,
+  title={Applications of the quantum algorithm for st-connectivity},
+  author={DeLorenzo, Kai, Kimmel, Shelby and Witter, Teal},
+  journal={arXiv preprint arXiv:1904.05995},
+  year={2018}
+}
