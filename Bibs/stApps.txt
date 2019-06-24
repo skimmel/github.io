@@ -1,6 +1,18 @@
-@article{delorenzo2019apps,
-  title={Applications of the quantum algorithm for st-connectivity},
-  author={DeLorenzo, Kai, Kimmel, Shelby and Witter, Teal},
-  journal={arXiv preprint arXiv:1904.05995},
-  year={2018}
+@InProceedings{delorenzo_et_al:LIPIcs:2019:10398,
+  author =	{Kai DeLorenzo and Shelby Kimmel and R. Teal Witter},
+  title =	{{Applications of the Quantum Algorithm for st-Connectivity}},
+  booktitle =	{14th Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC 2019)},
+  pages =	{6:1--6:14},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-112-2},
+  ISSN =	{1868-8969},
+  year =	{2019},
+  volume =	{135},
+  editor =	{Wim van Dam and Laura Mancinska},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{http://drops.dagstuhl.de/opus/volltexte/2019/10398},
+  URN =		{urn:nbn:de:0030-drops-103984},
+  doi =		{10.4230/LIPIcs.TQC.2019.6},
+  annote =	{Keywords: graphs, algorithms, query complexity, quantum algorithms, span programs}
 }
