@@ -1,29 +1,174 @@
 \documentclass[12pt]{article}
+%\usepackage{geometry} % to change the page dimensions
+%\geometry{margin=1in} % for example, change the margins to 2 inches all round
 
-\usepackage[margin=1in]{geometry}
-\usepackage{enumitem}
-\usepackage[colorlinks]{hyperref}
-\usepackage{url}\urlstyle{same}
-\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*,partopsep=0pt, parsep=0pt,after=\strut}
-\usepackage{amsfonts}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%  N E W T H E O R E M  %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{varioref}
+\usepackage{verbatim} 
 \usepackage{multicol}
-\usepackage{array}
-\pagestyle{empty}
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{3pt}
+\usepackage{enumerate}
+\usepackage[normalem]{ulem}
+%\usepackage[margin=1in]{geometry}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+
+
+\usepackage{mathrsfs}
+
+\usepackage{url}\urlstyle{same}
+\usepackage{xspace}
+\usepackage{thm-restate}
+
+% Nicer font
+\usepackage{mathpazo}
+
+
+% Microtype
+\usepackage{microtype}
+
+% TikZ
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+% Support eps figures
+\usepackage{epstopdf}
+
+% Hypertext package
+\usepackage[colorlinks = true]{hyperref}
+% Title and authors
+%\hypersetup{
+%  pdftitle = {},
+%  pdfauthor = {}
+%}
+% Color definitions
+\usepackage{xcolor}
+\definecolor{darkred}  {rgb}{0.5,0,0}
+\definecolor{darkblue} {rgb}{0,0,0.5}
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+% Color links
+\hypersetup{
+  urlcolor   = blue,         % color of external links
+  linkcolor  = darkblue,     % color of internal links
+  citecolor  = darkgreen,    % color of links to bibliography
+  filecolor  = darkred       % color of file links
+}
+
+% Clever references
+\usepackage{cleveref}%[nameinlink]
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{definition}{Definition}{Definitions}
+\crefname{theorem}{Theorem}{Theorems}
+\crefname{conjecture}{Conjecture}{Conjectures}
+\crefname{corollary}{Corollary}{Corollaries}
+\crefname{section}{Section}{Sections}
+\crefname{appendix}{Appendix}{Appendices}
+\crefname{figure}{Fig.}{Figs.}
+\crefname{equation}{Eq.}{Eqs.}
+\crefname{table}{Table}{Tables}
+\crefname{claim}{Claim}{Claims}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%  N E W T H E O R E M  %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem*{conjecture*}{Conjecture}
+\newtheorem*{problem}{Problem}
+\newtheorem{claim}[theorem]{Claim}
+\theoremstyle{definition}
+\newtheorem*{remark}{Remark}
+\newtheorem*{example}{Example}
+
+
+%%%%%%%%%%%%%%%%%%%
+%  Comments  %
+%%%%%%%%%%%%%%%%%%%
+\newcommand{\todo}[1]{{\color{red}{[{\bf TODO:} #1]}}}
+\newcommand{\skimmel}[1]{{\color{violet}{[{\bf skimmel:} #1]}}}
+\newcommand{\tocite}[1]{{\color{blue}{[{\bf CITE:}#1]}}}
+\newcommand{\tocheck}[1]{{\color{red}{[{\bf TO CHECK:}#1]}}}
+
+
+%%%%%%%%%%%%%%%%%%%
+%  Author Affiliations  %
+%%%%%%%%%%%%%%%%%%%
+\usepackage{authblk}
+\renewcommand\Authfont{\scshape}
+\renewcommand\Affilfont{\itshape\small}
+
+
+
+%%%%%%%%%%%%%%%%%%%
+%  New Commands  %
+%%%%%%%%%%%%%%%%%%%
+\newcommand\QMA{{\sf{QMA}}}
+\newcommand\QCMA{{\sf{QCMA}}}
+\newcommand\NP{{\sf{NP}}}
+
+\newcommand{\ket}[1]{|#1\rangle}
+\newcommand{\bra}[1]{\langle#1|}
+\newcommand{\proj}[1]{|#1\rangle\!\langle#1|}
+
+\renewcommand{\th}[1]{${#1}^{\textrm{th}}$}
+\newcommand{\tth}[0]{\textsuperscript{th}}
+\newcommand{\st}[0]{\textsuperscript{st}}
+\newcommand{\nd}[0]{\textsuperscript{nd}}
+\newcommand{\rd}[0]{\textsuperscript{rd}}
+
+\DeclareMathAlphabet{\matheu}{U}{eus}{m}{n}
+
+\DeclareMathOperator{\tr}{tr}
+\newcommand{\Paulis}{{\matheu P}}
+\newcommand{\Clifs}{{\matheu C}}
+\newcommand{\Hilb}{{\matheu H}}
+\newcommand{\sop}[1]{{\mathcal #1}}
+\newcommand{\PL}[1]{{#1}^{P\!L}}
+\newcommand{\I}{{\mathbb I}}
+\newcommand{\CNOT}{{\mathrm{CNOT}}}
+\newcommand{\plr}[1]{\hat{#1}} %pauli-liouville-represenation
+
+
+\newcommand{\braket}[2]{\langle{#1}|{#2}\rangle}
+\newcommand{\ketbra}[2]{|{#1}\rangle\!\langle{#2}|}
+\newcommand{\kket}[1]{|{#1}\rangle\!\rangle}
+\newcommand{\bbra}[1]{\langle\!\langle{#1}|}
+\newcommand{\bbrakket}[2]{\langle\!\langle{#1}|{#2}\rangle\!\rangle}
+
+
+\newcommand{\ceil}[1]{\left\lceil{#1}\right\rceil}
+
+%-----------------------------------------------------------------------------%
+
+
+
 
 \begin{document}
-
 \hfill Shelby Kimmel
 
 \begin{center}
 {\huge Self-Grading Problem Sets}
 \end{center}
+For each problem...
 
 If correct - congratulations! Keep up your hard work!
 
-
-If incorrectm try to determine what kind of error(s) you made, and make a note on the Canvas editor, and then over the next few days (prior to quiz) work on improving (see suggestions).
+If incorrect try to determine what kind of error(s) you made, and make a note on the Canvas editor, and then over the next few days (prior to quiz) work on improving (see suggestions).
 
 \paragraph{{\Large{Non-Proof Problems:}}}
 
@@ -38,7 +183,7 @@ If incorrectm try to determine what kind of error(s) you made, and make a note o
 \end{itemize}
 \item \textbf{Correct approach but...:} This is when you have the correct approach but either you got stuck, or you made a more major error in carrying out that approach. 
 \begin{itemize}
-\item If you are making this mistake, look at the solution to the problem itself or to similar problems from class or from the homework, and make sure you understand the solution completely (if not, come to office/tutoring hours). Then, after taking a break, solve that problem again without looking at the solution. Compare your solution to the original and notice any places you differ, or if you got stuck again, think about what you should have done. Repeat until you can solve this type of problem on your own.
+\item If you are making this mistake, look at the solution to the problem itself or to similar problems from class or textbooks, and make sure you understand the solution completely (if not, come to office/tutoring hours). Then, after taking a break, solve that problem again without looking at the solution. Compare your solution to the original and notice any places you differ, or if you got stuck again, think about what you should have done. Repeat until you can solve this type of problem on your own.
 \end{itemize}
 \item \textbf{Incorrect approach:} This is when you use an incorrect approach to solve a problem. (Note: there are sometimes multiple ways to approach the same problem, so if your solution is not exactly the same as mine, it might still be correct. If you are not sure, please contact your assigned TA.)
 \begin{itemize}
@@ -50,7 +195,7 @@ If incorrectm try to determine what kind of error(s) you made, and make a note o
 \end{itemize}
 \end{itemize}
 
-\newpage
+
 \paragraph{{\Large{Proof Problems:}}}
 
 ~\\Check for the above errors, and in addition, check for the following errors in your writing:
@@ -71,7 +216,7 @@ If you are making this mistake, after writing your proof, go back and look at pl
 \end{itemize}
 \item \textbf{Writing style:} Your writing is too casual, or doesn't follow the norms of proof style writing.
 \begin{itemize}
-\item  If you are making this mistake, closely read a proof. After taking a break, rewrite the proof yourself without looking at the original. Compare and notice places where your language differs. Rewrite again trying to use more of the formal language.
+\item  If you are making this mistake, closely read through the solution proof or a similar proof from a textbook or class. After taking a break, rewrite the proof yourself without looking at the original. Compare and notice places where your language differs. Rewrite again trying to use more of the formal language.
 \end{itemize} 
 \item \textbf{Verbose:} You repeat yourself, explain too much.
 \begin{itemize}
