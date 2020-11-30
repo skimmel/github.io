@@ -1,0 +1,6 @@
+@article{Russo2020consist,
+  title={Consistency testing for robust phase estimation},
+  author={Russo, A. E. and Kirby, W. M. and Rudinger, K. M. , and Baczewski, A. D. and Kimmel, S.},
+  journal={arXiv preprint arXiv:2011.13442},
+  year={2020}
+}
