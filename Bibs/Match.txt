@@ -1,6 +1,6 @@
 @article{kimmel2020query,
   title={A Query-Efficient Quantum Algorithm for Maximum Matching on General Graphs},
-  author={Kimmel, Shelby and Witter, R Teal},
+  author={Kimmel, Shelby and Witter, R. Teal},
   journal={arXiv preprint arXiv:2010.02324},
   year={2020}
 }
