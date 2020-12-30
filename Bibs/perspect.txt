@@ -1,0 +1,7 @@
+@inproceedings{kimmel2019quantum,
+  title={Quantum Algorithms: Promise and Perspective},
+  author={KIMMEL, SHELBY},
+  booktitle={Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2018 Symposium},
+  year={2019},
+  organization={National Academies Press}
+}

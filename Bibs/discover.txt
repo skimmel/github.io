@@ -1,0 +1,6 @@
+@article{alexeev2019quantum,
+  title={Quantum computer systems for scientific discovery},
+  author={Alexeev, Yuri and Bacon, Dave and Brown, Kenneth R and Calderbank, Robert and Carr, Lincoln D and Chong, Frederic T and DeMarco, Brian and Englund, Dirk and Farhi, Edward and Fefferman, Bill and others},
+  journal={arXiv preprint arXiv:1912.07577},
+  year={2019}
+}
