@@ -1,6 +1,16 @@
-@article{kimmel2020query,
-  title={A Query-Efficient Quantum Algorithm for Maximum Matching on General Graphs},
-  author={Kimmel, Shelby and Witter, R. Teal},
-  journal={arXiv preprint arXiv:2010.02324},
-  year={2020}
+@InProceedings{10.1007/978-3-030-83508-8_39,
+author="Kimmel, Shelby
+and Witter, R. Teal",
+editor="Lubiw, Anna
+and Salavatipour, Mohammad
+and He, Meng",
+title="A Query-Efficient Quantum Algorithm for Maximum Matching on General Graphs",
+booktitle="Algorithms and Data Structures",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="543--555",
+abstract="We design quantum algorithms for maximum matching. Working in the query model, in both adjacency matrix and adjacency list settings, we improve on the best known algorithms for general graphs, matching previously obtained results for bipartite graphs. In particular, for a graph with n vertices and m edges, our algorithm makes {\$}{\$}O(n^{\{}7/4{\}}){\$}{\$}O(n7/4)queries in the matrix model and {\$}{\$}O(n^{\{}3/4{\}}(m+n)^{\{}1/2{\}}){\$}{\$}O(n3/4(m+n)1/2)queries in the list model. Our approach combines Gabow's classical maximum matching algorithm [Gabow, Fundamenta Informaticae, '17] with the guessing tree method of Beigi and Taghavi [Beigi and Taghavi, Quantum, '20].",
+isbn="978-3-030-83508-8"
 }
+
