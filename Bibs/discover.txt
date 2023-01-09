@@ -1,6 +1,14 @@
-@article{alexeev2019quantum,
-  title={Quantum computer systems for scientific discovery},
-  author={Alexeev, Yuri and Bacon, Dave and Brown, Kenneth R and Calderbank, Robert and Carr, Lincoln D and Chong, Frederic T and DeMarco, Brian and Englund, Dirk and Farhi, Edward and Fefferman, Bill and others},
-  journal={arXiv preprint arXiv:1912.07577},
-  year={2019}
+@article{PRXQuantum.2.017001,
+  title = {Quantum Computer Systems for Scientific Discovery},
+  author = {Alexeev, Yuri and Bacon, Dave and Brown, Kenneth R. and Calderbank, Robert and Carr, Lincoln D. and Chong, Frederic T. and DeMarco, Brian and Englund, Dirk and Farhi, Edward and Fefferman, Bill and Gorshkov, Alexey V. and Houck, Andrew and Kim, Jungsang and Kimmel, Shelby and Lange, Michael and Lloyd, Seth and Lukin, Mikhail D. and Maslov, Dmitri and Maunz, Peter and Monroe, Christopher and Preskill, John and Roetteler, Martin and Savage, Martin J. and Thompson, Jeff},
+  journal = {PRX Quantum},
+  volume = {2},
+  issue = {1},
+  pages = {017001},
+  numpages = {19},
+  year = {2021},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PRXQuantum.2.017001},
+  url = {https://link.aps.org/doi/10.1103/PRXQuantum.2.017001}
 }

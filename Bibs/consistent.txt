@@ -1,6 +1,14 @@
-@article{Russo2020consist,
-  title={Consistency testing for robust phase estimation},
-  author={Russo, A. E. and Kirby, W. M. and Rudinger, K. M. , and Baczewski, A. D. and Kimmel, S.},
-  journal={arXiv preprint arXiv:2011.13442},
-  year={2020}
+@article{PhysRevA.103.042609,
+  title = {Consistency testing for robust phase estimation},
+  author = {Russo, Antonio E. and Kirby, William M. and Rudinger, Kenneth M. and Baczewski, Andrew D. and Kimmel, Shelby},
+  journal = {Phys. Rev. A},
+  volume = {103},
+  issue = {4},
+  pages = {042609},
+  numpages = {21},
+  year = {2021},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.103.042609},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.103.042609}
 }
