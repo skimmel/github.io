@@ -1,6 +1,8 @@
-@article{anderson2020leverage,
-  title={Leveraging Unknown Structure in Quantum Query Algorithms},
-  author={Anderson, Noel T. and Chung, Jay-U, and Kimmel, Shelby},
-  journal={arXiv preprint arXiv:2012.01276},
-  year={2020}
+@misc{anderson2023improved,
+      title={Improved Quantum Query Complexity on Easier Inputs}, 
+      author={Noel T. Anderson and Jay-U Chung and Shelby Kimmel and Da-Yeon Koh and Xiaohan Ye},
+      year={2023},
+      eprint={2303.00217},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph}
 }

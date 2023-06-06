@@ -1,0 +1,8 @@
+@misc{jeffery2023quantum,
+      title={Quantum Algorithm for Path-Edge Sampling}, 
+      author={Stacey Jeffery and Shelby Kimmel and Alvaro Piedrafita},
+      year={2023},
+      eprint={2303.03319},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph}
+}
