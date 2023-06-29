@@ -1,113 +1,107 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
 
 <head>
-	<meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title> Shelby Kimmel </title>
-	<!--<link rel = "icon" type="image/png" href = "Elkhorn.jpg"/> shouod be png-->
-	<link rel="stylesheet" href="CSS/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-25375883-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shelby Kimmel</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="CSS/new.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Shelby Kimmel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About Me
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="research.html">Research </a>
+                </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="teaching.html">Teaching 
+               <span class="sr-only">(current)</span>
+                </a>
+          </li> 
+          <li class="nav-item">
+              <a class="nav-link" href="talks.html">Talks 
+                </a>
+          </li> 
+          <li class="nav-item">
+              <a class="nav-link" href="advising.html">Advising 
+                </a>
+          </li> 
+            </ul>
+        </div>
+    </nav>
+    <main role="main" class="container">
+        <div class="avoid-nav">
 
-<div class="allContainer">
+            <div class="container for-about">
 
-<header>
-	<h1 class="dark-blue-font"> Shelby Kimmel </h1>
-	<div class = "button">
-		<div class = "burger"></div>
-	</div>
-	<div class = "navClass">
-	<nav class="nav clear">
-		<ul class="blue-font">
-			<li> <a href = "index.html" >About Me</a></li>
-			<li> <a href = "research.html">Research</a></li>
-			<li> <a  id="current" href="teaching.html">Teaching</a></li>
-			<li> <a href = "talks.html">Talks</a></li>
-			<li> <a href = "advising.html">Advising</a></li>
-		</ul>
-	</nav>
-</div>
-</header>
 
-<h2 id = "pageTitle"> Teaching</h2>
+<h1>Teaching</h1>
 
-<main>
 
-	<div class = "ParagraphBlock">
 
-	<h2>Middlebury College</h2>
-	<ul class = "advisingList">
-		<li>Algorithms and Complexity: <a href="http://www.cs.middlebury.ed u/~skimmel/Courses/Past/302S22/">Spring 2022</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/302S21/">Spring 2021</a>,
-		<a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/302S20/">Spring 2020</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/302S19/">Spring 2019</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/302F17/">Fall 2017</a> </li>
-		<li>Computational Complexity: <a href="https://www.cs.middlebury.edu/~skimmel/Courses/Past/401S22/">Spring 2022</a>, <a href="https://www.cs.middlebury.edu/~skimmel/Courses/Past/401F20/">Fall 2020</a></li>
-		<li>Quantum Computing: <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/333S21/">Spring 2021</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/333F19/">Fall 2019</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/333S18/">Spring 2018</a></li>
-		<li>Bias, Belonging, and Tech: <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/1012W21/">Winter 2021</a></li>
-		<li>Computational Complexity: <a href="https://www.cs.middlebury.edu/~skimmel/Courses/Past/401F20/">Fall 2020</a></li>
-		
-		<li>Computer Science Thesis Course :  <a href="https://www.cs.middlebury.edu/~skimmel/Courses/Past/702F20/">Fall 2020</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/702S20/">Spring 2020</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/702F19/">Fall 2019</a> </li>
-		<li>Math Foundations of Computing: <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/200F19/">Fall 2019</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/200S19/">Spring 2019</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/200S18/">Spring 2018</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/200F17/">Fall 2017</a> </li>
-	</ul>
+  <div class = "ParagraphBlock">
 
-	<h2>University of Maryland</h2>
-	<ul class = "advisingList">
-		<li>Fall 2016: <a href="https://www.cs.umd.edu/class/fall2016/cmsc858K/">Introduction to Quantum Information Processing</a> (Co-taught) </li>
-		<li>Fall 2016: <a href="https://myelms.umd.edu/courses/1199373/assignments/syllabus"> Object-Oriented Programming I </a> (Taught Discussion Section)</li>
-	</ul>
+  <h2 id="algTable">Middlebury College</h2>
+  <ul class = "advisingList">
+    <li>Algorithms and Complexity: <a href="http://www.cs.middlebury.ed u/~skimmel/Courses/Past/302S22/">Spring 2022</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/302S21/">Spring 2021</a>,
+    <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/302S20/">Spring 2020</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/302S19/">Spring 2019</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/302F17/">Fall 2017</a> </li>
+    <li>Computational Complexity: <a href="https://www.cs.middlebury.edu/~skimmel/Courses/Past/401S22/">Spring 2022</a>, <a href="https://www.cs.middlebury.edu/~skimmel/Courses/Past/401F20/">Fall 2020</a></li>
+    <li>Quantum Computing: <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/333S21/">Spring 2021</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/333F19/">Fall 2019</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/333S18/">Spring 2018</a></li>
+    <li>Bias, Belonging, and Tech: <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/1012W21/">Winter 2021</a></li>
+    <li>Computational Complexity: <a href="https://www.cs.middlebury.edu/~skimmel/Courses/Past/401F20/">Fall 2020</a></li>
+    
+    <li>Computer Science Thesis Course :  <a href="https://www.cs.middlebury.edu/~skimmel/Courses/Past/702F20/">Fall 2020</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/702S20/">Spring 2020</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/702F19/">Fall 2019</a> </li>
+    <li>Math Foundations of Computing: <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/200F19/">Fall 2019</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/200S19/">Spring 2019</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/200S18/">Spring 2018</a>, <a href="http://www.cs.middlebury.edu/~skimmel/Courses/Past/200F17/">Fall 2017</a> </li>
+  </ul>
 
-	<h2>Massachusetts Institute of Technology </h2>
-	<ul class = "advisingList">
-		<li>Spring 2014, 2012: <a href="http://ocw.mit.edu/courses/physics/8-06-quantum-physics-iii-spring-2005/">Quantum Physics III</a> (Writing tutor)</li>
-		<li>Spring 2011: <a href="http://ocw.mit.edu/courses/physics/8-02-physics-ii-electricity-and-magnetism-spring-2007/">Physics II: Electricity and Magnetism</a> (TEAL -Technology Enabled Active Learning teaching assistant)</li>
-	</ul>
+  <h2>University of Maryland</h2>
+  <ul class = "advisingList">
+    <li>Fall 2016: <a href="https://www.cs.umd.edu/class/fall2016/cmsc858K/">Introduction to Quantum Information Processing</a> (Co-taught) </li>
+    <li>Fall 2016: <a href="https://myelms.umd.edu/courses/1199373/assignments/syllabus"> Object-Oriented Programming I </a> (Taught Discussion Section)</li>
+  </ul>
 
-	<h2>Gochangbuk High School (Gochang, Jeolla-buk-do, South Korea)</h2>
-	<ul class = "advisingList">
-		<li>Fall 2008, Spring 2009: <a href="http://www.fulbright.or.kr/en/usgrant/eta/">Fulbright English Teaching Assistant (ETA)</li>
-	</ul>
+  <h2>Massachusetts Institute of Technology </h2>
+  <ul class = "advisingList">
+    <li>Spring 2014, 2012: <a href="http://ocw.mit.edu/courses/physics/8-06-quantum-physics-iii-spring-2005/">Quantum Physics III</a> (Writing tutor)</li>
+    <li>Spring 2011: <a href="http://ocw.mit.edu/courses/physics/8-02-physics-ii-electricity-and-magnetism-spring-2007/">Physics II: Electricity and Magnetism</a> (TEAL -Technology Enabled Active Learning teaching assistant)</li>
+  </ul>
+
+  <h2>Gochangbuk High School (Gochang, Jeolla-buk-do, South Korea)</h2>
+  <ul class = "advisingList">
+    <li>Fall 2008, Spring 2009: <a href="http://www.fulbright.or.kr/en/usgrant/eta/">Fulbright English Teaching Assistant (ETA)</li>
+  </ul>
 
 
 </div>
 
 </main>
-
-
-</main>
-
-<footer>
-	<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Shelby Kimmel, 2016.</span>
-</footer>
-
-</div>
-
-<script>
-$(".button").click(function () {
-    $(".nav").slideToggle(0);
-});
-$(window).resize(function () {
-    if ($(window).width() > 580) {
-        $(".nav").show();
-        $(".button").hide();
-    } else {
-        $(".nav").hide();
-        $(".button").show();
-    }
-});
-</script>
-
+      <footer class="footer">
+        <div class="container">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+      </div>
+      </footer>
+<!-- /.container -->
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 </body>
-</html>
 
+</html>

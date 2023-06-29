@@ -1,120 +1,128 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
 
 <head>
-	<meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title> Shelby Kimmel </title>
-	<!--<link rel = "icon" type="image/png" href = "Elkhorn.jpg"/> shouod be png-->
-	<link rel="stylesheet" href="CSS/style.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-		<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-25375883-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shelby Kimmel</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="CSS/new.css">
 </head>
 
 <body>
-<div class="allContainer">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Shelby Kimmel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About Me
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="research.html">Research </a>
+                </li>
+          <li class="nav-item">
+              <a class="nav-link" href="teaching.html">Teaching 
+                </a>
+          </li> 
+          <li class="nav-item active">
+              <a class="nav-link" href="talks.html">Talks 
+                <span class="sr-only">(current)</span>
+                </a>
+          </li> 
+          <li class="nav-item">
+              <a class="nav-link" href="advising.html">Advising 
+                </a>
+          </li> 
+            </ul>
+        </div>
+    </nav>
+    <main role="main" class="container">
+        <div class="avoid-nav">
 
-<header>
-	<h1> Shelby Kimmel </h1>
-		<div class = "button">
-		<div class = "burger"></div>
-	</div>
-	<div class = "navClass">
-	<nav class="nav clear">
-		<ul>
-			<li> <a href = "index.html">About Me</a></li>
-			<li> <a href = "research.html">Research</a></li>
-			<li> <a href="teaching.html">Teaching</a></li>
-			<li> <a id="current" href = "talks.html">Talks</a></li>
-			<li> <a href = "advising.html">Advising</a></li>
-		</ul>
-	</nav>
-</header>
+            <div class="container for-about">
 
-<h2 id = "pageTitle"> Talks</h2>
-<main>
+
+<h1> Talks</h1>
 
 
 
-	<div class = "ParagraphBlock">
-	<em>	Talks are grouped according to title, and then by date within title:</em>
-	<div class = "talkList">
-	<ul>
+
+    <div class = "ParagraphBlock">
+    <em>    Talks are grouped according to title, and then by date within title:</em>
+    <div class = "talkList">
+    <ul>
 
 <li>A Multi-tool for your Quantum Algorithmic Toolbox
 <ul>
-	<li>Tufts University Physics Colloquium. October 2022. Medford, Massachusetts. <a href="Talks/Tufts_MultiTool.pdf">Slides.</a></li>
-	<li>Union Computer Science Colloquium. May 2022. Schenectady, New York.</li>
-	<li>Broadbent Group Meeting (remote). November 2020. <a href="Multitool_Broadbent.pdf">Slides.</a></li>
-	<li>Google Quantum Summer Symposium (remote). July 2020. <a href="Talks/Multitool_Google.pdf">Slides,</a> <a class="video" href="https://www.youtube.com/watch?v=5KSEMj2AMn8&list=PLQY2H8rRoyvx4VttfJOPRslw8XWT7yaBJ&index=16&t=0s">Video</a></li>
+    <li>Tufts University Physics Colloquium. October 2022. Medford, Massachusetts. <a href="Talks/Tufts_MultiTool.pdf">Slides.</a></li>
+    <li>Union Computer Science Colloquium. May 2022. Schenectady, New York.</li>
+    <li>Broadbent Group Meeting (remote). November 2020. <a href="Multitool_Broadbent.pdf">Slides.</a></li>
+    <li>Google Quantum Summer Symposium (remote). July 2020. <a href="Talks/Multitool_Google.pdf">Slides,</a> <a class="video" href="https://www.youtube.com/watch?v=5KSEMj2AMn8&list=PLQY2H8rRoyvx4VttfJOPRslw8XWT7yaBJ&index=16&t=0s">Video</a></li>
 </ul>
 </li>
 
 <li>Speed-ups for Quantum Algorithms with Easier Inputs
 <ul>
-	<li>APS Virtual AMO Seminar Series (remote). March 2022. <a href="Talks/EasyVAMOS.pdf">Slides</a>. <a href="https://www.youtube.com/watch?v=ZxXXTY5TLSs">Video.</a> </li>
-	<li>Los Alamos National Lab Quantum Computing Summer School (remote). June 2021. <a href="Talks/EasyInstLANL.pdf">Slides.</a></li>
+    <li>APS Virtual AMO Seminar Series (remote). March 2022. <a href="Talks/EasyVAMOS.pdf">Slides</a>. <a href="https://www.youtube.com/watch?v=ZxXXTY5TLSs">Video.</a> </li>
+    <li>Los Alamos National Lab Quantum Computing Summer School (remote). June 2021. <a href="Talks/EasyInstLANL.pdf">Slides.</a></li>
 </ul>
 </li>
 
 
 
 <li>Path Detection: A Quantum Computing Primitive
-			<ul>
-				<li>Quantum Algorithms Workshop at the Simons Institute for Theoretical Computing. February 2020. Berkeley, California. <a href="Talks/PrimitiveSimons.pdf">Slides.</a> <a class = "video" href="https://simons.berkeley.edu/talks/path-detection-quantum-computing-primitive">Video.</a> </li>
-				<li>Quantum Software Consortium Assembly. June 2019. Amsterdam, Netherlands. <a href="Talks/PrimitiveQuSoft.pdf">Slides</a> </li>
-				<li>Dartmouth College, Quantum-Nano Colloquium. April 2018, Hanover, NH. <a href="Talks/ERDart.pdf">Slides</a></li>
-				<li>Rigetti. January 2018. Berkeley, CA.  <a href="Talks/EffectiveResistanceRigetti.pdf">Slides</a></li>
-				<li>Canadian Institute for Advanced Research Quantum Information Science Meeting, October 2017. Niagara-on-the-Lake, ON. <a href="Talks/ERCIFAR.pdf">Slides</a></li>
-				<li>Last Frontiers in Quantum Information Science, June 2017. Seward, AK.
-				<a href="Talks/ERLFQIS.pdf">Slides.</a>
-				</li>
-				<li>UT Austin, CS Theory Seminar, May 2017. <a href="Talks/EFAustin.pdf">Slides.</a></li>
-				<li>
-					UT Delft. May 2017. Delft Netherlands. <a href="Talks/st_Conn_Delft.pdf">Slides.</a>
-				</li>
-			</ul>
+            <ul>
+                <li>Quantum Algorithms Workshop at the Simons Institute for Theoretical Computing. February 2020. Berkeley, California. <a href="Talks/PrimitiveSimons.pdf">Slides.</a> <a class = "video" href="https://simons.berkeley.edu/talks/path-detection-quantum-computing-primitive">Video.</a> </li>
+                <li>Quantum Software Consortium Assembly. June 2019. Amsterdam, Netherlands. <a href="Talks/PrimitiveQuSoft.pdf">Slides</a> </li>
+                <li>Dartmouth College, Quantum-Nano Colloquium. April 2018, Hanover, NH. <a href="Talks/ERDart.pdf">Slides</a></li>
+                <li>Rigetti. January 2018. Berkeley, CA.  <a href="Talks/EffectiveResistanceRigetti.pdf">Slides</a></li>
+                <li>Canadian Institute for Advanced Research Quantum Information Science Meeting, October 2017. Niagara-on-the-Lake, ON. <a href="Talks/ERCIFAR.pdf">Slides</a></li>
+                <li>Last Frontiers in Quantum Information Science, June 2017. Seward, AK.
+                <a href="Talks/ERLFQIS.pdf">Slides.</a>
+                </li>
+                <li>UT Austin, CS Theory Seminar, May 2017. <a href="Talks/EFAustin.pdf">Slides.</a></li>
+                <li>
+                    UT Delft. May 2017. Delft Netherlands. <a href="Talks/st_Conn_Delft.pdf">Slides.</a>
+                </li>
+            </ul>
 
 <li>Quantum vs. Classical Proofs
-	<ul>
-		<li>QuICS 5th Anniversary Workshop, January 2020. College Park, MD. <a href="Talks/QCMA-Quics.pdf">Slides.</a></li>
-		<li>SQuInT (Southwest Quantum Information and Technology), February  2018. Santa Fe, NW. <a href="Talks/QCMA-Squint.pdf">Slides.</a></li>
-	</ul>
+    <ul>
+        <li>QuICS 5th Anniversary Workshop, January 2020. College Park, MD. <a href="Talks/QCMA-Quics.pdf">Slides.</a></li>
+        <li>SQuInT (Southwest Quantum Information and Technology), February  2018. Santa Fe, NW. <a href="Talks/QCMA-Squint.pdf">Slides.</a></li>
+    </ul>
 </li>
 
 
 <li> Quantum Algorithms: Promise and Perspective
-	<ul>
-		<li> National Academy of Engineering Frontiers of Engineering Symposium, MIT Lincoln Labs, September 2018, Lexington, MA. <a href="Talks/Kimmel_05Sep_Online.pdf">Slides</a>
-			
-		</li>
-	</ul>
-	
+    <ul>
+        <li> National Academy of Engineering Frontiers of Engineering Symposium, MIT Lincoln Labs, September 2018, Lexington, MA. <a href="Talks/Kimmel_05Sep_Online.pdf">Slides</a>
+            
+        </li>
+    </ul>
+    
 
 </li>
 
 <li>Infinity Machines: Will Quantum Computers Live up to the Hype?
-	<ul>
-		<li>Carol Rifelj Faculty Lecture Series, Middlebury College. April 2018, Middlebury, VT. (Joint talk with Paul Hess.) <a href="Talks/Rifelj.pdf">Slides</a></li>
-	</ul>
+    <ul>
+        <li>Carol Rifelj Faculty Lecture Series, Middlebury College. April 2018, Middlebury, VT. (Joint talk with Paul Hess.) <a href="Talks/Rifelj.pdf">Slides</a></li>
+    </ul>
 
 </li>
 
 <li>Quantum Algorithms for Connectivity: Applications and Analysis
-	<ul>
-		<li>American Mathematical Society Northeast Sectional Meeting, Northeastern University. April 2018, Boston, MA. <a href="Talks/Kimmel-AMS-3.pdf">Slides</a>
-		</li>
-	</ul>
+    <ul>
+        <li>American Mathematical Society Northeast Sectional Meeting, Northeastern University. April 2018, Boston, MA. <a href="Talks/Kimmel-AMS-3.pdf">Slides</a>
+        </li>
+    </ul>
 
 
 </li>
@@ -125,155 +133,152 @@
 
 
 
-		
-		<li>Characterizing Coherent Errors Efficiently, Robustly, and Simply
-			<ul>
-			<li>	THINKQ Workshop, IBM. Dec 2017. Yorktown Heights, NY. <a href="Talks/CalibrationThinkQ.pdf">Slides</a>, <a class="video" href="https://www.youtube.com/watch?v=YyfJ_OKkw_I">Video</a>
-			</li>
-			 </ul>
-		</li>
+        
+        <li>Characterizing Coherent Errors Efficiently, Robustly, and Simply
+            <ul>
+            <li>    THINKQ Workshop, IBM. Dec 2017. Yorktown Heights, NY. <a href="Talks/CalibrationThinkQ.pdf">Slides</a>, <a class="video" href="https://www.youtube.com/watch?v=YyfJ_OKkw_I">Video</a>
+            </li>
+             </ul>
+        </li>
 
 <li>What does the effective resistance of electrical circuits have to do with quantum algorithms?
-		<ul>
-				<li>
-					QMATH Kick-off Conference. November 2016. Copenhagen, Denmark. <a href="Talks/EFCopenhagen.pdf">Slides.</a>
-				</li>
-				<li>
-					JQI-QuICS-CMTC Lunch Talk. October 2016. College Park, MD. <a href="Talks/st_Conn_JQI.pdf">Slides.</a></li>
-				</li>
-			
-			</ul>
-		</li>
+        <ul>
+                <li>
+                    QMATH Kick-off Conference. November 2016. Copenhagen, Denmark. <a href="Talks/EFCopenhagen.pdf">Slides.</a>
+                </li>
+                <li>
+                    JQI-QuICS-CMTC Lunch Talk. October 2016. College Park, MD. <a href="Talks/st_Conn_JQI.pdf">Slides.</a></li>
+                </li>
+            
+            </ul>
+        </li>
 
 
 
 
-		<li>Phase Retrieval Using Unitary 2-Designs
-			<ul>
-				<li>SAMPTA (Sampling Theory and Applications Conference) July  2017. Tallinn, Estonia. <a href="Talks/PRSAMPTA.pdf">Slides.</a></li>
-			</ul>
-		</li>
+        <li>Phase Retrieval Using Unitary 2-Designs
+            <ul>
+                <li>SAMPTA (Sampling Theory and Applications Conference) July  2017. Tallinn, Estonia. <a href="Talks/PRSAMPTA.pdf">Slides.</a></li>
+            </ul>
+        </li>
 
 
-		<li>
-			Quantum Algorithms
-			<ul>
-				<li>
-					<a href="http://jqi.umd.edu/Schrodinger-sessions-II">Schrodinger Sessions</a> (workshop for science fiction writers). July 2016. College Park, MD. <a href="Talks/QAlgs.pdf">Slides.</a> <a class = "video" href="https://www.youtube.com/watch?v=3Bt3DNOKjYg">Video</a>
-				</li>
-			</ul>
-		</li>
-		<li>
-			Turning States into Unitaries: Optimal Sample-Based Hamiltonian Simulation
-			<ul>
-				<li>
-					CWI. May 2017. Amsterdam, Netherlands. <a href="Talks/HamSimCWI.pdf"></a>
-				</li>
-				<li>QuICS Group Meeting. July 2016. College Park, MD. <a href="Talks/HamSimQUICS.pdf">Slides.</a></li>
-				<li>Last Frontiers in Quantum Information Science Workshop, June 2016. Juneau, AK <a href="Talks/HamSimJun.pdf">Slides.</a></li>
-			</ul>
-		</li>
-		<li>
-			Robust Characterization of Gates
-			<ul>
-				<li>2015 Korea-US Joint Workshop on Quantum Information November 2015, Seoul, SK. <a  href="Talks/RobGateKor.pdf">Slides.</a> <a class = "video" href="http://media.kias.re.kr/">Video</a> (To get to the video, click on the magnifying glass, and then enter "2015 Korea-US Joint Workshop on Quantum Information" in the search bar, with Keyword set to Title and Field set to Conferences. The conference should appear. Click on the link and then search for "Kimmel" to find my talk.)</li>
-			</ul>
-		</li>
-		<li>
-			Robust Single-Qubit Process Calibration via Robust Phase Estimation
-			<ul>
-				<li>APS March Meeting, Baltimore, MD. March 2016. <a href="Talks/RPE-APS.pdf">Slides.</a></li>
-				<li>JQI Lunch Talk. College Park, MD. March 2015. <a href="Talks/RPEJQI.pdf">Slides.</a> </li>
-				<li>NIST Journal Club. Boulder, CA/College Park, MD. March 2015. <a href="Talks/RPENIST.pdf">Slides.</a> </li>
-				<li>Raytheon BBN Technologies, Cambridge, MA. March 2015. <a href="Talks/RPEBBN.pdf">Slides.</a> </li>
-				<li>Caltech, Pasadena, CA. April 2015. <a href="Talks/RPECaltech.pdf">Slides.</a></li>
-			</ul>
-		</li>
-		<li>
-			Oracles with Costs
-			<ul>
-				<li>Theory of Quantum Computing Conference. May 2015. <a href="Talks/MultOrsTQC.pdf">Slides.</a></li>
-				<li>Williams College, Williamstown, MA. May 2015. <a href="Talks/MultOrsWilliams.pdf">Slides.</a></li>
-			</ul>
-		</li>
-		<li>
-			Robust Characterization of Quantum Processes
-			<ul>
-			<li>APS March Meeting, Denver, CO. March 2014.  <a href="Talks/RBT-APS.pdf">Slides.</a></li>
-			<li>Northrop Grumman. Baltimore, MD. February 2014. <a href="Talks/RBTNGC.pdf">Slides.</a></li>
-			<li>Center for Ultracold Atoms lunch talk. Cambridge, MA. February 2014. <a href="Talks/RBTCUA.pdf">Slides.</a></li>
-			<li>Isaac Newton Institute. Cambridge, MA. November 2013. <a href="Talks/RBTINI.pdf">Slides.</a> <a class = "video" href="https://www.newton.ac.uk/seminar/20131112140015001">Video.</a></li>
-			<li>MIT graduate student lunch talk. Cambridge, MA. March 2013. <a href="Talks/RBTMIT.pdf">Slides.</a></li>
-			<li>MIT Center for Theoretical Physics lunch talk. Cambridge, MA. December 2012. <a href="Talks/RBTCTP.pdf">Slides.</a></li>
-			</ul>
-		</li>
+        <li>
+            Quantum Algorithms
+            <ul>
+                <li>
+                    <a href="http://jqi.umd.edu/Schrodinger-sessions-II">Schrodinger Sessions</a> (workshop for science fiction writers). July 2016. College Park, MD. <a href="Talks/QAlgs.pdf">Slides.</a> <a class = "video" href="https://www.youtube.com/watch?v=3Bt3DNOKjYg">Video</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Turning States into Unitaries: Optimal Sample-Based Hamiltonian Simulation
+            <ul>
+                <li>
+                    CWI. May 2017. Amsterdam, Netherlands. <a href="Talks/HamSimCWI.pdf"></a>
+                </li>
+                <li>QuICS Group Meeting. July 2016. College Park, MD. <a href="Talks/HamSimQUICS.pdf">Slides.</a></li>
+                <li>Last Frontiers in Quantum Information Science Workshop, June 2016. Juneau, AK <a href="Talks/HamSimJun.pdf">Slides.</a></li>
+            </ul>
+        </li>
+        <li>
+            Robust Characterization of Gates
+            <ul>
+                <li>2015 Korea-US Joint Workshop on Quantum Information November 2015, Seoul, SK. <a  href="Talks/RobGateKor.pdf">Slides.</a> <a class = "video" href="http://media.kias.re.kr/">Video</a> (To get to the video, click on the magnifying glass, and then enter "2015 Korea-US Joint Workshop on Quantum Information" in the search bar, with Keyword set to Title and Field set to Conferences. The conference should appear. Click on the link and then search for "Kimmel" to find my talk.)</li>
+            </ul>
+        </li>
+        <li>
+            Robust Single-Qubit Process Calibration via Robust Phase Estimation
+            <ul>
+                <li>APS March Meeting, Baltimore, MD. March 2016. <a href="Talks/RPE-APS.pdf">Slides.</a></li>
+                <li>JQI Lunch Talk. College Park, MD. March 2015. <a href="Talks/RPEJQI.pdf">Slides.</a> </li>
+                <li>NIST Journal Club. Boulder, CA/College Park, MD. March 2015. <a href="Talks/RPENIST.pdf">Slides.</a> </li>
+                <li>Raytheon BBN Technologies, Cambridge, MA. March 2015. <a href="Talks/RPEBBN.pdf">Slides.</a> </li>
+                <li>Caltech, Pasadena, CA. April 2015. <a href="Talks/RPECaltech.pdf">Slides.</a></li>
+            </ul>
+        </li>
+        <li>
+            Oracles with Costs
+            <ul>
+                <li>Theory of Quantum Computing Conference. May 2015. <a href="Talks/MultOrsTQC.pdf">Slides.</a></li>
+                <li>Williams College, Williamstown, MA. May 2015. <a href="Talks/MultOrsWilliams.pdf">Slides.</a></li>
+            </ul>
+        </li>
+        <li>
+            Robust Characterization of Quantum Processes
+            <ul>
+            <li>APS March Meeting, Denver, CO. March 2014.  <a href="Talks/RBT-APS.pdf">Slides.</a></li>
+            <li>Northrop Grumman. Baltimore, MD. February 2014. <a href="Talks/RBTNGC.pdf">Slides.</a></li>
+            <li>Center for Ultracold Atoms lunch talk. Cambridge, MA. February 2014. <a href="Talks/RBTCUA.pdf">Slides.</a></li>
+            <li>Isaac Newton Institute. Cambridge, MA. November 2013. <a href="Talks/RBTINI.pdf">Slides.</a> <a class = "video" href="https://www.newton.ac.uk/seminar/20131112140015001">Video.</a></li>
+            <li>MIT graduate student lunch talk. Cambridge, MA. March 2013. <a href="Talks/RBTMIT.pdf">Slides.</a></li>
+            <li>MIT Center for Theoretical Physics lunch talk. Cambridge, MA. December 2012. <a href="Talks/RBTCTP.pdf">Slides.</a></li>
+            </ul>
+        </li>
 
-		<li>
-			Structure in Quantum Algorithms
-			<ul>
-				<li>
-				Santa Fe Institute. Santa Fe, NM. January, 2014. <a href="Talks/AlgSF.pdf">Slides.</a></li>
+        <li>
+            Structure in Quantum Algorithms
+            <ul>
+                <li>
+                Santa Fe Institute. Santa Fe, NM. January, 2014. <a href="Talks/AlgSF.pdf">Slides.</a></li>
 
-			</ul>
+            </ul>
 
-		</li>
+        </li>
 
-		<li>
-			Quantum Adversary (Upper) Bound
-			<ul>
-				<li>Perimeter Institute. Waterloo, Canada. November 2013. <a href="Talks/AdvPI.pdf">Slides.</a> <a class = "video" href="http://pirsa.org/displayFlash.php?id=13110090">Video.</a></li>
-				<li>Sandia National Labs. Albuquerque, NM. November 2013. <a href="Talks/AdvSandia.pdf">Slides.</a></li>
-				<li>International Colloquium on Automata, Languages, and Programming. Coventry, UK. July 2012. <a href="Talks/AdvICALP.pdf">Slides.</a></li>
-			</ul>
-		</li>
+        <li>
+            Quantum Adversary (Upper) Bound
+            <ul>
+                <li>Perimeter Institute. Waterloo, Canada. November 2013. <a href="Talks/AdvPI.pdf">Slides.</a> <a class = "video" href="http://pirsa.org/displayFlash.php?id=13110090">Video.</a></li>
+                <li>Sandia National Labs. Albuquerque, NM. November 2013. <a href="Talks/AdvSandia.pdf">Slides.</a></li>
+                <li>International Colloquium on Automata, Languages, and Programming. Coventry, UK. July 2012. <a href="Talks/AdvICALP.pdf">Slides.</a></li>
+            </ul>
+        </li>
 
-		<li>
-			Super-Polynomial Quantum Speedups
-			<ul>
-				<li>Innovations in Theoretical Computer Science. Cambridge, MA. June 2012. <a href="Talks/SuperITCS.pdf">Slides.</a></li>
-			</ul>
-		</li>
+        <li>
+            Super-Polynomial Quantum Speedups
+            <ul>
+                <li>Innovations in Theoretical Computer Science. Cambridge, MA. June 2012. <a href="Talks/SuperITCS.pdf">Slides.</a></li>
+            </ul>
+        </li>
 
-		<li>The Quantum Query Complexity of Read-Many Boolean Formulas
-			<ul>
-				<li>UC Berkeley. Berkeley, CA. April 2012. <a href="Talks/ReadManyBerkeley.pdf">Slides.</a></li>
-				<li>MIT Center for Theoretical Physics lunch talk. Cambridge, MA. March 2012. <a href="Talks/ReadManyBerkeley.pdf">Slides.</a></li>
-				<li>European Symposium on Algorithms. Ljubljana, Slovenia. September 2012. <a href="Talks/ReadManyBerkeley.pdf">Slides.</a></li>
-			</ul>
-		</li>
-
-
-
-		
+        <li>The Quantum Query Complexity of Read-Many Boolean Formulas
+            <ul>
+                <li>UC Berkeley. Berkeley, CA. April 2012. <a href="Talks/ReadManyBerkeley.pdf">Slides.</a></li>
+                <li>MIT Center for Theoretical Physics lunch talk. Cambridge, MA. March 2012. <a href="Talks/ReadManyBerkeley.pdf">Slides.</a></li>
+                <li>European Symposium on Algorithms. Ljubljana, Slovenia. September 2012. <a href="Talks/ReadManyBerkeley.pdf">Slides.</a></li>
+            </ul>
+        </li>
 
 
+</li>
+        
 
 
 
-	</ul>
-	</div>
+</ul>
+</div>
+</div>
 
 
-	</div>
 </main>
 
-<footer>
-	<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Shelby Kimmel, 2016.</span>
-</footer>
-<script>
-	$(".button").click(function () {
-    $(".nav").slideToggle(0);
-});
-$(window).resize(function () {
-    if ($(window).width() > 580) {
-        $(".nav").show();
-        $(".button").hide();
-    } else {
-        $(".nav").hide();
-        $(".button").show();
-    }
-});
-</script>
-</body>
-</html>
 
+      <footer class="footer">
+                <div class="container">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+      </div>
+      </footer>
+
+<!-- /.container -->
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+</body>
+
+
+</html>

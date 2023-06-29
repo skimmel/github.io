@@ -1,0 +1,8 @@
+@misc{czekanski2023robust,
+      title={Robust and Space-Efficient Dual Adversary Quantum Query Algorithms}, 
+      author={Michael Czekanski and Shelby Kimmel and R. Teal Witter},
+      year={2023},
+      eprint={2306.15040},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph}
+}

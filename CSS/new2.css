@@ -1,0 +1,45 @@
+/*body {
+	font-family: Tahoma;
+}
+*/
+
+.day {
+	font-weight: bold;
+	border-style:solid;
+	border-width:medium;
+	margin:0;
+	padding:0;
+}
+
+.date {
+	padding:10px;
+	border-bottom-style: solid;
+	border-width:medium;
+}
+
+.monday {
+	background-color: #ffcccc;
+}
+
+.tuesday {
+	background-color: #ffb84d;
+}
+
+.wednesday {
+	background-color: #b3ffb3;
+}
+.friday {
+	background-color: #99ffff; 
+}
+
+.day-info {
+	padding:0px 10px 0px 10px;
+}
+
+.day-info li {
+	font-weight:normal;
+}
+
+ul {
+     padding-left: 20px;
+}

@@ -1,178 +1,184 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
 
 <head>
-	<meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title> Shelby Kimmel </title>
-	<!--<link rel = "icon" type="image/png" href = "Elkhorn.jpg"/> shouod be png-->
-	<link rel="stylesheet" href="CSS/style.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-		<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-25375883-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shelby Kimmel</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="CSS/new.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Shelby Kimmel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">About Me</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="research.html">Research
+                    <span class="sr-only">(current)</span></a>
+                </li>
 
-	<div class = "allContainer">
+          <li class="nav-item">
+              <a class="nav-link" href="teaching.html">Teaching 
+                </a>
+          </li> 
+          <li class="nav-item">
+              <a class="nav-link" href="talks.html">Talks 
+                </a>
+          </li> 
+          <li class="nav-item">
+              <a class="nav-link" href="advising.html">Advising 
+                </a>
+          </li> 
+            </ul>
+        </div>
+    </nav>
+    <main role="main" class="container">
+        <div class="avoid-nav">
 
-<header>
-	<h1> Shelby Kimmel </h1>
-		<div class = "button">
-		<div class = "burger"></div>
-	</div>
-	<div class = "navClass">
-	<nav class="nav clear">
-		<ul>
-			<li> <a href = "index.html">About Me</a></li>
-			<li> <a id="current" href = "research.html">Research</a></li>
-			<li> <a href="teaching.html">Teaching</a></li>
-			<li> <a href = "talks.html">Talks</a></li>
-			<li> <a href = "advising.html">Advising</a></li>
-		</ul>
-	</nav>
-</header>
+            <div class="container for-about">
 
-<h2 id = "pageTitle"> Research</h2>
-
-<main>
-	<div class = "ParagraphBlock">
-	<ul><li>Jump to: </li>
-		<li><a href="#algTable"> Algorithms</a>, </li>
-		<li><a href="#tomTable">Process Tomography</a>,</li>
-		<li><a href="#otherTable">Computational Complexity, Information Theory, and Eclipses</a></li>
-		<li><a href="#revTable">Surveys and Perspectives</a></li>
-
-	</ul>
-	<h2 id="algTable">Algorithms</h2>
-	<p>I primarily study query problems, in which one tries to learn a property of an unknown function, by "querying" values of the function. The goal is to determine the property of the function using as few queries as possible. I try to prove upper and lower bounds on the number of queries needed by a quantum algorithm to solve the problem. This is a rewarding model to work in because it is possible to prove that quantum computers require fewer queries than classical computers.</p>
-	</div>
-	
-	<div class = "ResearchTable">
-	<table>
-		<tr><th class="tableRow" class = "paperCol"> Algorithms Papers</th><th class = "refCol"></th></tr>
-		<tr><td class="tableRow">S. Jeffery, S. Kimmel, A. Piedrafita.<br><span class = "title">Quantum Algorithm for Path-Edge Sampling .</span>
-		<br>Manuscript 2023. Accepted to TQC 2023 </td><td><a href="https://arxiv.org/abs/2303.03319"> <br>Arxiv</a><br><a href="Bibs/edgeSample.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">N. T. Anderson, J.-U. Chung, S. Kimmel, D.-Y. Koh, X. Ye <br><span class = "title">Improved Quantum Query Complexity on Easier Inputs.</span>
-		<br>Manuscript 2023. </td><td><a href="https://arxiv.org/abs/2303.00217"> <br>Arxiv</a><br><a href="Bibs/leverage.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">S. Kimmel, R. T. Witter. <br><span class = "title">A Query-Efficient Quantum Algorithm for Maximum Matching on General Graphs.</span>
-		<br>Workshop on Algorithms and Data Structures (WADS) 2021. Springer Lecture Notes in Computer Science: Algorithms and Data Structures, vol 12808, pp 543–555. </td><td><a href="https://doi.org/10.1007/978-3-030-83508-8_39">Proceedings</a><a href="https://arxiv.org/abs/2010.02324"> <br>Arxiv</a><br><a href="Bibs/Match.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">K. DeLorenzo, S. Kimmel, R. T. Witter. <br><span class = "title">Applications of the quantum algorithm for st-connectivity.</span>
-		<br>Proceedings of Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC 2019), vol 135, pp 6:1-14. </td><td><a href="http://drops.dagstuhl.de/opus/volltexte/2019/10398/">Proceedings</a><a href="https://arxiv.org/abs/1904.05995"> <br>Arxiv</a><br><a href="Bibs/stApps.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">M. Jarret, S. Jeffery, S. Kimmel, A. Piedrafita. <br><span class = "title">Quantum Algorithms for Connectivity and Related Problems.</span>
-		<br>Proceedings of ESA 2018, pp 49:1-13.</td><td><a href="http://drops.dagstuhl.de/opus/frontdoor.php?source_opus=9512">Proceedings</a><br><a href="https://arxiv.org/abs/1804.10591"> Arxiv</a><br><a href="Bibs/connect.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">S. Jeffery. S. Kimmel. <br><span class = "title">Quantum Algorithms for Graph Connectivity and Formula Evaluation.</span>
-		<br>Quantum vol 1, 26, 2017.</td><td><a href="https://doi.org/10.22331/q-2017-08-17-26">Journal</a><br><a href="https://arxiv.org/abs/1704.00765"> Arxiv</a><br><a href="Bibs/nand.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">S. Kimmel, C. Y-Y. Lin, G. H. Low, M. Ozols, T. J. Yoder <br><span class="title">Hamiltonian Simulation with Optimal Sample Complexity</span> <br> Nature Partner Journals Quantum Information, vol 3, no. 13, 2017.</td><td><a href="https://www.nature.com/articles/s41534-017-0013-7">Journal</a><br><a href="http://arxiv.org/abs/1608.00281">Arxiv</a><br>
-		<a href="Bibs/HamSim.txt">Bibtex</a>
-			</td></tr>
-		<tr><td class="tableRow">E. Farhi, S. Kimmel, K. Temme. <br><span class="title">A Quantum Version of Schöning's Algorithm Applied to Quantum 2-SAT. </span><br> Quantum Information and Computation, vol 16, no. 13-14, 2016.</td><td><a href="http://www.rintonpress.com/journals/qiconline.html">Journal</a><br><a href="http://arxiv.org/abs/1603.06985">Arxiv</a><br><a href="Bibs/Schon.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">S. Kimmel, C. Y. Y. Lin, H. H. Lin. <br><span class = "title">Oracles with Costs. </span><br>Proceedings of Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC 2015), pp 1-26. </td><td><a href="http://drops.dagstuhl.de/opus/volltexte/2015/5545/">Proceedings</a><br><a href="http://arxiv.org/abs/1502.02174"> Arxiv</a><br><a href="Bibs/costs.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">A. M. Childs, S. Kimmel, R. Kothari. <br><span class = "title">The Quantum Query Complexity of Read-Many Formulas.</span> <br>Proceedings of ESA 2013, pp 337-348. </td><td><a href="http://link.springer.com/chapter/10.1007/978-3-642-33090-2_30">Proceedings</a><br><a href="http://arxiv.org/abs/1112.0548"> Arxiv</a><br><a href="Bibs/ReadMany.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">S. Kimmel <br><span class = "title">Quantum Adversary (Upper) Bound.</span><br> Chicago Journal of Theoretical Computer Science, vol 2013 n 4. And Proceedings of ICALP. 2012 pp 557-568. 
-		</td><td><a href="http://cjtcs.cs.uchicago.edu/articles/2013/4/contents.html">Journal</a><br><a href="http://arxiv.org/abs/1101.0797">Arxiv</a><br><a href="Bibs/Adv.txt">Bibtex</a><br></td></tr>
-		<tr><td class="tableRow">B. Zhan, S. Kimmel, A. Hassidim. <br><span class = "title">Super-polynomial Quantum Speed-ups for Boolean Evaluation Trees with Hidden Structure. </span><br>Proceedings of ITCS, pp 249-265. 2012</td><td><a href="http://dl.acm.org/citation.cfm?id=2090258">Proceedings</a><br><a href="http://arxiv.org/abs/1101.0796">Arxiv</a><br><a href="Bibs/Super.txt">Bibtex</a></td></tr>
-	</table>
-	</div>
-
-	<div class = "ParagraphBlock">
-	<h2 id="tomTable">Process Tomography</h2>
-	<p>
-		We don't yet have scalable quantum computers because errors in current systems grow more quickly than we can correct them. The ability to  accurately characterize these errors is important for experimentalists as they try to improve their systems. I create tools that provide information about these errors in ways that are accurate, efficient, and make realistic assumptions about experimental resources.
-	</p>
-
-	</div>
-	<div class = "ResearchTable">
-	<table>
-		<tr><th class="tableRow" class = "paperCol"> Process Tomography Papers</th><th class = "refCol"></th></tr>
-		<tr><td>A. E. Russo, W. M. Kirby, K. M. Rudinger, A. D. Baczewski, S. Kimmel.
-			<br>
-			<span class = "title">Consistency testing for robust phase estimation</span><br>Physical Review A, vol 103, 042609, 2021.</td>
-			<td><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.042609">Journal</a>
-				<a href="https://arxiv.org/abs/2011.13442">Arxiv</a>
-				<br><a href="Bibs/consistent.txt">Bibtex</a></td>
-		</tr>
-		<tr><td class="tableRow">I. Roth, R. Kueng, S. Kimmel, Y.-K. Liu, D. Gross, J. Eisert, M. Kliesch.  <br><span class = "title">Recovering quantum gates from few average gate fidelities.</span>
-		 <br>Physical Review Letters, vol 121, no 17, pp 170502, 2018, (Editor's Suggestion.) </td><td><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.170502">Journal</a><br><a href="https://arxiv.org/abs/1803.00572"> Arxiv</a><br><a href="Bibs/recovery.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">K. Rudinger, S. Kimmel, D. Lobser, P. Maunz.  <br><span class = "title">Experimental demonstration of cheap and accurate phase estimation.</span>
-		 <br>Physical Review Letters, vol. 118, no. 19, pp. 190502, 2017</td><td><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.118.190502">Journal</a><br><a href="https://arxiv.org/abs/1702.01763"> Arxiv</a><br><a href="Bibs/RPEexp.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">S. Kimmel, Y.-K. Liu.  <br><span class = "title">Phase retrieval using unitary 2-designs.</span>
-		 <br>Proceedings of the 2017 International Conference on Sampling Theory and Applications (SAMPTA). pp 345-349, 2017.</td><td><a href="http://ieeexplore.ieee.org/document/8024414/">Proceedings</a><br><a href="http://arxiv.org/abs/1510.08887"> Arxiv</a><br><a href="Bibs/design.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">S. Kimmel, G. H. Low, T. J. Yoder.  <br><span class = "title">Robust calibration of a universal single-qubit gate set via robust phase estimation. </span> <br>Phys. Rev. A 92 (6), 062315. 2015. </td><td><a href="http://journals.aps.org/pra/abstract/10.1103/PhysRevA.92.062315">Journal</a><br><a href="http://arxiv.org/abs/1502.02677"> Arxiv</a><br><a href="Bibs/Robust.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">B. R. Johnson, M. P. da Silva, C. A. Ryan, S. Kimmel, J. M. Chow, T. A. Ohki.  <br><span class = "title">Demonstration of Robust Quantum Gate Tomography via Randomized Benchmarking.</span><br>New Journal of Physics 17 (11), 113019. 2015.</td><td><a href="http://iopscience.iop.org/article/10.1088/1367-2630/17/11/113019">Journal</a><br><a href="https://arxiv.org/abs/1505.06686"> Arxiv</a><br><a href="Bibs/Demo.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">S. Kimmel, M. P. da Silva, C. Ryan, B. Johnson, T, Ohki.  <br><span class = "title">Robust Extraction of Tomographic Information via Randomized Benchmarking.</span> <br>Physical Review X, 2014, vol 4, n 1, pp 011050, 2014.
-		</td><td><a href="http://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.011050">Journal</a><br><a href="http://arxiv.org/abs/1306.2348">Arxiv</a><br><a href="Bibs/RRB.txt">Bibtex</a><br></td></tr>
-	</table>
-	</div>
+              <h1> Research</h1>
 
 
-	<div class = "ParagraphBlock">
-	<h2 id="otherTable">Computational Complexity, Information Theory, and Eclipses</h2>
-	<p>In the area of complexity theory, I am most interested in understanding whether quantum proofs are more powerful than classical proofs. In other words, if someone tries to convince me that a statement is true by giving me a proof, in what cases is it helpful for that proof to be a quantum state rather than a classical bit string? In information theory, I have investigated how entanglement can be used as a resource to perform quantum measurements between separated parties. Finally, as an undergrad, I did some eclipse chasing, studying the solar corona.</p>
-	</div>
-	
-	<div class = "ResearchTable">
-	<table>
-		<tr><th class="tableRow"  class = "paperCol"> Computational Complexity, Information, and Eclipse Papers </th><th class = "refCol"></th></tr>
-		<tr><td class="tableRow">S. Kimmel, S. Kolkowitz <br><span class = "title">No-Go for Quantum Seals.</span> <br> Phys. Rev. A, vol. 100 pp. 052326, 2019</td><td><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.052326">Journal</a><br>
-			<a href="https://arxiv.org/abs/1802.10007">Arxiv</a><br><a href="Bibs/seals.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">B. Fefferman, S. Kimmel<br><span class = "title">Quantum vs Classical Proofs and Subset Verification.</span>  <br> Proceedings of the 43rd International Symposium on Mathematical Foundations of Computer Science (MFCS), 2018, vol. 117, pp. 22:1-23. </td><td><a href="http://drops.dagstuhl.de/opus/frontdoor.php?source_opus=9604">Proceedings</a><br><a href="http://arxiv.org/abs/1510.06750">Arxiv</a><br><a href="Bibs/QCMA.txt">Bibtex</a></td></tr>
+  
 
-		<tr><td class="tableRow">S. Bandyopadhyay, G. Brassard, S. Kimmel, W. Wootters.  <br><span class = "title">Entanglement Cost of Nonlocal Measurements. </span>
-		 <br>Phys. Rev. A. vol 80, n 1, pp 012313. 2009.</td><td><a href="http://journals.aps.org/pra/abstract/10.1103/PhysRevA.80.012313"> Journal</a>
-		<br><a href="http://arxiv.org/abs/0809.2264">Arxiv</a><br><a href="Bibs/Ent.txt">Bibtex</a></td></tr>
 
-		<tr><td class="tableRow">J. Pasachoff, S. Kimmel, M. Druckmuller, V. Rusin, M. Saniga.  <br><span class = "title">The April 8, 2005 Eclipse White-light Corona.</span><br>Solar Physics. vol 238, n 2, pp 261-270, 2006.</td><td><a href="http://link.springer.com/article/10.1007/s11207-006-0176-4">Journal</a><br><a href="Bibs/eclipse.txt">Bibtex</a></td></tr>
-	</table>
-	</div>
+    <div class = "ParagraphBlock">
+    Jump to: 
+    <ul>
+        <li><a href="#algTable"> Algorithms</a>, </li>
+        <li><a href="#tomTable">Process Tomography</a>,</li>
+        <li><a href="#otherTable">Computational Complexity, Information Theory, and Eclipses</a></li>
+        <li><a href="#revTable">Surveys and Perspectives</a></li>
 
-	<div class = "ParagraphBlock">
-	<h2 id="revTable">Surveys and Perspectives</h2>
-	</div>
+    </ul>
+    <h2 id="algTable">Algorithms</h2>
+    <p>I primarily study query problems, in which one tries to learn a property of an unknown function, by "querying" values of the function. The goal is to determine the property of the function using as few queries as possible. I try to prove upper and lower bounds on the number of queries needed by a quantum algorithm to solve the problem. This is a rewarding model to work in because it is possible to prove that quantum computers require fewer queries than classical computers.</p>
+    </div>
+    
+    <div class = "ResearchTable">
+    <table>
+        <!-- <tr><th class="tableRow" class = "paperCol"> Algorithms Papers</th><th class = "refCol"></th></tr> -->
+        <tr><td class="tableRow">M. Czekanski, S. Kimmel, R. T. Witter.<br><span class = "title">Robust and Space-Efficient Dual Adversary Quantum Query Algorithms .</span>
+        <br>Manuscript 2023. Accepted to ESA 2023 </td><td><a href="https://arxiv.org/abs/2306.15040"> <br>Arxiv</a><br><a href="Bibs/robustQuery.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">S. Jeffery, S. Kimmel, A. Piedrafita.<br><span class = "title">Quantum Algorithm for Path-Edge Sampling.</span>
+        <br>Manuscript 2023. Accepted to TQC 2023 </td><td><a href="https://arxiv.org/abs/2303.03319"> <br>Arxiv</a><br><a href="Bibs/edgeSample.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">N. T. Anderson, J.-U. Chung, S. Kimmel, D.-Y. Koh, X. Ye <br><span class = "title">Improved Quantum Query Complexity on Easier Inputs.</span>
+        <br>Manuscript 2023. </td><td><a href="https://arxiv.org/abs/2303.00217"> <br>Arxiv</a><br><a href="Bibs/leverage.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">S. Kimmel, R. T. Witter. <br><span class = "title">A Query-Efficient Quantum Algorithm for Maximum Matching on General Graphs.</span>
+        <br>Workshop on Algorithms and Data Structures (WADS) 2021. Springer Lecture Notes in Computer Science: Algorithms and Data Structures, vol 12808, pp 543–555. </td><td><a href="https://doi.org/10.1007/978-3-030-83508-8_39">Proceedings</a><a href="https://arxiv.org/abs/2010.02324"> <br>Arxiv</a><br><a href="Bibs/Match.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">K. DeLorenzo, S. Kimmel, R. T. Witter. <br><span class = "title">Applications of the quantum algorithm for st-connectivity.</span>
+        <br>Proceedings of Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC 2019), vol 135, pp 6:1-14. </td><td><a href="http://drops.dagstuhl.de/opus/volltexte/2019/10398/">Proceedings</a><a href="https://arxiv.org/abs/1904.05995"> <br>Arxiv</a><br><a href="Bibs/stApps.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">M. Jarret, S. Jeffery, S. Kimmel, A. Piedrafita. <br><span class = "title">Quantum Algorithms for Connectivity and Related Problems.</span>
+        <br>Proceedings of ESA 2018, pp 49:1-13.</td><td><a href="http://drops.dagstuhl.de/opus/frontdoor.php?source_opus=9512">Proceedings</a><br><a href="https://arxiv.org/abs/1804.10591"> Arxiv</a><br><a href="Bibs/connect.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">S. Jeffery. S. Kimmel. <br><span class = "title">Quantum Algorithms for Graph Connectivity and Formula Evaluation.</span>
+        <br>Quantum vol 1, 26, 2017.</td><td><a href="https://doi.org/10.22331/q-2017-08-17-26">Journal</a><br><a href="https://arxiv.org/abs/1704.00765"> Arxiv</a><br><a href="Bibs/nand.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">S. Kimmel, C. Y-Y. Lin, G. H. Low, M. Ozols, T. J. Yoder <br><span class="title">Hamiltonian Simulation with Optimal Sample Complexity</span> <br> Nature Partner Journals Quantum Information, vol 3, no. 13, 2017.</td><td><a href="https://www.nature.com/articles/s41534-017-0013-7">Journal</a><br><a href="http://arxiv.org/abs/1608.00281">Arxiv</a><br>
+        <a href="Bibs/HamSim.txt">Bibtex</a>
+            </td></tr>
+        <tr><td class="tableRow">E. Farhi, S. Kimmel, K. Temme. <br><span class="title">A Quantum Version of Schöning's Algorithm Applied to Quantum 2-SAT. </span><br> Quantum Information and Computation, vol 16, no. 13-14, 2016.</td><td><a href="http://www.rintonpress.com/journals/qiconline.html">Journal</a><br><a href="http://arxiv.org/abs/1603.06985">Arxiv</a><br><a href="Bibs/Schon.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">S. Kimmel, C. Y. Y. Lin, H. H. Lin. <br><span class = "title">Oracles with Costs. </span><br>Proceedings of Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC 2015), pp 1-26. </td><td><a href="http://drops.dagstuhl.de/opus/volltexte/2015/5545/">Proceedings</a><br><a href="http://arxiv.org/abs/1502.02174"> Arxiv</a><br><a href="Bibs/costs.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">A. M. Childs, S. Kimmel, R. Kothari. <br><span class = "title">The Quantum Query Complexity of Read-Many Formulas.</span> <br>Proceedings of ESA 2013, pp 337-348. </td><td><a href="http://link.springer.com/chapter/10.1007/978-3-642-33090-2_30">Proceedings</a><br><a href="http://arxiv.org/abs/1112.0548"> Arxiv</a><br><a href="Bibs/ReadMany.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">S. Kimmel <br><span class = "title">Quantum Adversary (Upper) Bound.</span><br> Chicago Journal of Theoretical Computer Science, vol 2013 n 4. And Proceedings of ICALP. 2012 pp 557-568. 
+        </td><td><a href="http://cjtcs.cs.uchicago.edu/articles/2013/4/contents.html">Journal</a><br><a href="http://arxiv.org/abs/1101.0797">Arxiv</a><br><a href="Bibs/Adv.txt">Bibtex</a><br></td></tr>
+        <tr><td class="tableRow">B. Zhan, S. Kimmel, A. Hassidim. <br><span class = "title">Super-polynomial Quantum Speed-ups for Boolean Evaluation Trees with Hidden Structure. </span><br>Proceedings of ITCS, pp 249-265. 2012</td><td><a href="http://dl.acm.org/citation.cfm?id=2090258">Proceedings</a><br><a href="http://arxiv.org/abs/1101.0796">Arxiv</a><br><a href="Bibs/Super.txt">Bibtex</a></td></tr>
+    </table>
+    </div>
 
-	<div class = "ResearchTable">
-	<table>
-		<tr><th class="tableRow"  class = "paperCol"> Surveys and Perspectives </th><th class = "refCol"></th></tr>
-		<tr><td class="tableRow">Y. Alexeev et al. <br><span class = "title">Quantum Computer Systems for Scientific Discovery.</span> <br> PRX Quantum, vol 2, 017001, 2021.</td><td>
-			<a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.017001">Journal</a>
-			<a href="https://arxiv.org/abs/1912.07577">Arxiv</a><br><a href="Bibs/discover.txt">Bibtex</a></td></tr>
-		<tr><td class="tableRow">S. Kimmel
+    <div class = "ParagraphBlock">
+    <h2 id="tomTable">Process Tomography</h2>
+    <p>
+        We don't yet have scalable quantum computers because errors in current systems grow more quickly than we can correct them. The ability to  accurately characterize these errors is important for experimentalists as they try to improve their systems. I create tools that provide information about these errors in ways that are accurate, efficient, and make realistic assumptions about experimental resources.
+    </p>
+
+    </div>
+    <div class = "ResearchTable">
+    <table>
+        <!-- <tr><th class="tableRow" class = "paperCol"> Process Tomography Papers</th><th class = "refCol"></th></tr> -->
+        <tr><td>A. E. Russo, W. M. Kirby, K. M. Rudinger, A. D. Baczewski, S. Kimmel.
+            <br>
+            <span class = "title">Consistency testing for robust phase estimation</span><br>Physical Review A, vol 103, 042609, 2021.</td>
+            <td><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.042609">Journal</a>
+                <a href="https://arxiv.org/abs/2011.13442">Arxiv</a>
+                <br><a href="Bibs/consistent.txt">Bibtex</a></td>
+        </tr>
+        <tr><td class="tableRow">I. Roth, R. Kueng, S. Kimmel, Y.-K. Liu, D. Gross, J. Eisert, M. Kliesch.  <br><span class = "title">Recovering quantum gates from few average gate fidelities.</span>
+         <br>Physical Review Letters, vol 121, no 17, pp 170502, 2018, (Editor's Suggestion.) </td><td><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.170502">Journal</a><br><a href="https://arxiv.org/abs/1803.00572"> Arxiv</a><br><a href="Bibs/recovery.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">K. Rudinger, S. Kimmel, D. Lobser, P. Maunz.  <br><span class = "title">Experimental demonstration of cheap and accurate phase estimation.</span>
+         <br>Physical Review Letters, vol. 118, no. 19, pp. 190502, 2017</td><td><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.118.190502">Journal</a><br><a href="https://arxiv.org/abs/1702.01763"> Arxiv</a><br><a href="Bibs/RPEexp.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">S. Kimmel, Y.-K. Liu.  <br><span class = "title">Phase retrieval using unitary 2-designs.</span>
+         <br>Proceedings of the 2017 International Conference on Sampling Theory and Applications (SAMPTA). pp 345-349, 2017.</td><td><a href="http://ieeexplore.ieee.org/document/8024414/">Proceedings</a><br><a href="http://arxiv.org/abs/1510.08887"> Arxiv</a><br><a href="Bibs/design.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">S. Kimmel, G. H. Low, T. J. Yoder.  <br><span class = "title">Robust calibration of a universal single-qubit gate set via robust phase estimation. </span> <br>Phys. Rev. A 92 (6), 062315. 2015. </td><td><a href="http://journals.aps.org/pra/abstract/10.1103/PhysRevA.92.062315">Journal</a><br><a href="http://arxiv.org/abs/1502.02677"> Arxiv</a><br><a href="Bibs/Robust.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">B. R. Johnson, M. P. da Silva, C. A. Ryan, S. Kimmel, J. M. Chow, T. A. Ohki.  <br><span class = "title">Demonstration of Robust Quantum Gate Tomography via Randomized Benchmarking.</span><br>New Journal of Physics 17 (11), 113019. 2015.</td><td><a href="http://iopscience.iop.org/article/10.1088/1367-2630/17/11/113019">Journal</a><br><a href="https://arxiv.org/abs/1505.06686"> Arxiv</a><br><a href="Bibs/Demo.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">S. Kimmel, M. P. da Silva, C. Ryan, B. Johnson, T, Ohki.  <br><span class = "title">Robust Extraction of Tomographic Information via Randomized Benchmarking.</span> <br>Physical Review X, 2014, vol 4, n 1, pp 011050, 2014.
+        </td><td><a href="http://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.011050">Journal</a><br><a href="http://arxiv.org/abs/1306.2348">Arxiv</a><br><a href="Bibs/RRB.txt">Bibtex</a><br></td></tr>
+    </table>
+    </div>
+
+
+    <div class = "ParagraphBlock">
+    <h2 id="otherTable">Computational Complexity, Information Theory, and Eclipses</h2>
+    <p>In the area of complexity theory, I am most interested in understanding whether quantum proofs are more powerful than classical proofs. In other words, if someone tries to convince me that a statement is true by giving me a proof, in what cases is it helpful for that proof to be a quantum state rather than a classical bit string? In information theory, I have investigated how entanglement can be used as a resource to perform quantum measurements between separated parties. Finally, as an undergrad, I did some eclipse chasing, studying the solar corona.</p>
+    </div>
+    
+    <div class = "ResearchTable">
+    <table>
+        <!-- <tr><th class="tableRow"  class = "paperCol"> Computational Complexity, Information, and Eclipse Papers </th><th class = "refCol"></th></tr> -->
+        <tr><td class="tableRow">S. Kimmel, S. Kolkowitz <br><span class = "title">No-Go for Quantum Seals.</span> <br> Phys. Rev. A, vol. 100 pp. 052326, 2019</td><td><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.052326">Journal</a><br>
+            <a href="https://arxiv.org/abs/1802.10007">Arxiv</a><br><a href="Bibs/seals.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">B. Fefferman, S. Kimmel<br><span class = "title">Quantum vs Classical Proofs and Subset Verification.</span>  <br> Proceedings of the 43rd International Symposium on Mathematical Foundations of Computer Science (MFCS), 2018, vol. 117, pp. 22:1-23. </td><td><a href="http://drops.dagstuhl.de/opus/frontdoor.php?source_opus=9604">Proceedings</a><br><a href="http://arxiv.org/abs/1510.06750">Arxiv</a><br><a href="Bibs/QCMA.txt">Bibtex</a></td></tr>
+
+        <tr><td class="tableRow">S. Bandyopadhyay, G. Brassard, S. Kimmel, W. Wootters.  <br><span class = "title">Entanglement Cost of Nonlocal Measurements. </span>
+         <br>Phys. Rev. A. vol 80, n 1, pp 012313. 2009.</td><td><a href="http://journals.aps.org/pra/abstract/10.1103/PhysRevA.80.012313"> Journal</a>
+        <br><a href="http://arxiv.org/abs/0809.2264">Arxiv</a><br><a href="Bibs/Ent.txt">Bibtex</a></td></tr>
+
+        <tr><td class="tableRow">J. Pasachoff, S. Kimmel, M. Druckmuller, V. Rusin, M. Saniga.  <br><span class = "title">The April 8, 2005 Eclipse White-light Corona.</span><br>Solar Physics. vol 238, n 2, pp 261-270, 2006.</td><td><a href="http://link.springer.com/article/10.1007/s11207-006-0176-4">Journal</a><br><a href="Bibs/eclipse.txt">Bibtex</a></td></tr>
+    </table>
+    </div>
+
+    <div class = "ParagraphBlock">
+    <h2 id="revTable">Surveys and Perspectives</h2>
+    </div>
+
+    <div class = "ResearchTable">
+    <table>
+        <!-- <tr><th class="tableRow"  class = "paperCol"> Surveys and Perspectives </th><th class = "refCol"></th></tr> -->
+        <tr><td class="tableRow">Y. Alexeev et al. <br><span class = "title">Quantum Computer Systems for Scientific Discovery.</span> <br> PRX Quantum, vol 2, 017001, 2021.</td><td>
+            <a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.017001">Journal</a>
+            <a href="https://arxiv.org/abs/1912.07577">Arxiv</a><br><a href="Bibs/discover.txt">Bibtex</a></td></tr>
+        <tr><td class="tableRow">S. Kimmel
  <br><span class = "title">Quantum Algorithms: Promise and Perspective.</span> <br> 
-			Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2018 Symposium. National Academy of Engineering. 2019 </td><td><a href="https://www.ncbi.nlm.nih.gov/books/NBK538703/">Journal</a><br><a href="http://arxiv.org/abs/1510.06750">Arxiv</a><br><a href="Bibs/perspect.txt">Bibtex</a></td></tr>
-	</table>
-	</div>
+            Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2018 Symposium. National Academy of Engineering. 2019 </td><td><a href="https://www.ncbi.nlm.nih.gov/books/NBK538703/">Journal</a><br><a href="http://arxiv.org/abs/1510.06750">Arxiv</a><br><a href="Bibs/perspect.txt">Bibtex</a></td></tr>
+    </table>
+    </div>
 
-	
-</main>
-<footer>
-	<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Shelby Kimmel, 2016.</span>
-</footer>
+    
 
-</div>
 
-<script>
-	$(".button").click(function () {
-    $(".nav").slideToggle(0);
-});
-$(window).resize(function () {
-    if ($(window).width() > 580) {
-        $(".nav").show();
-        $(".button").hide();
-    } else {
-        $(".nav").hide();
-        $(".button").show();
-    }
-});
-</script>
+    </main><!-- /.container -->
+          <footer class="footer">
+                <div class="container">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+      </div>
+      </footer>
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 </body>
-</html>
 
+</html>
