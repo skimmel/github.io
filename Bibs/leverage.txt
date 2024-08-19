@@ -1,8 +1,13 @@
-@misc{anderson2023improved,
-      title={Improved Quantum Query Complexity on Easier Inputs}, 
-      author={Noel T. Anderson and Jay-U Chung and Shelby Kimmel and Da-Yeon Koh and Xiaohan Ye},
-      year={2023},
-      eprint={2303.00217},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph}
+@article{Anderson2024improvedquantum,
+  doi = {10.22331/q-2024-04-08-1309},
+  url = {https://doi.org/10.22331/q-2024-04-08-1309},
+  title = {Improved {Q}uantum {Q}uery {C}omplexity on {E}asier {I}nputs},
+  author = {Anderson, Noel T. and Chung, Jay-U and Kimmel, Shelby and Koh, Da-Yeon and Ye, Xiaohan},
+  journal = {{Quantum}},
+  issn = {2521-327X},
+  publisher = {{Verein zur F{\"{o}}rderung des Open Access Publizierens in den Quantenwissenschaften}},
+  volume = {8},
+  pages = {1309},
+  month = apr,
+  year = {2024}
 }
